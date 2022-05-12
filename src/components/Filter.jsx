@@ -7,7 +7,7 @@ const Filter = ({ cityChoice, setCityChoice }) => {
       <label>
         Découvrir à{" "}
         <select
-          class="border-4 border-solid "
+          className="border-4 border-solid "
           onChange={(e) => setCityChoice(e.target.value)}
         >
           <option value="">choisisez votre ville</option>
