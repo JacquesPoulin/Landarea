@@ -11,7 +11,7 @@ const navLinks = [
   },
   {
     id: 3,
-    path: "/",
+    path: "/store",
     title: "Concept store",
   },
 ];
