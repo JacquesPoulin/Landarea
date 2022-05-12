@@ -36,13 +36,17 @@ const NavBar = () => {
             {isOpened && (
               <div className="absolute right-0 w-full h-screen justify-center m-auto bg-greeny z-10">
                 <div className=" w-full h-auto flex flex-col mt-20 justify-center text-center mb-6">
-                  <h1 className="text-xl font-medium">LANDAREA</h1>
+                  <h1 className="text-xl text-slate-50 font-primary">
+                    LANDAREA
+                  </h1>
                   <img
                     src="../../assets/images/LOGO.png"
                     alt=""
                     className="w-20 h-20 m-auto"
                   />
-                  <h3> Le paradis des plantes</h3>
+                  <h3 className="font-regular text-slate-50">
+                    Le paradis des plantes
+                  </h3>
                 </div>
                 <ul className="items-center justify-center text-black">
                   {navLinks.map((link) => (
@@ -51,7 +55,7 @@ const NavBar = () => {
                       to={link.path}
                       onClick={() => setIsOpened(false)}
                     >
-                      <li className="ml-3 font-secondary hover:underline text-xl border-b-2 py-4">
+                      <li className="ml-3 font-second hover:underline text-xl border-b-2 py-4 text-slate-50">
                         {link.title}
                       </li>
                     </NavLink>
