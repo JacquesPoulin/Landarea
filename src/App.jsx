@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
       <Home {...heroes} />
       <Add {...heroes} />
       <Store {...heroes} />
