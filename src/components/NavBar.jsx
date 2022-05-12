@@ -7,27 +7,26 @@ const NavBar = () => {
   const [isOpened, setIsOpened] = useState(false);
 
   return (
-    <header className="absolute w-full flex justify-end">
-      <nav className="w-[95%] flex justify-end">
-        <ul className="w-full flex justify-end">
+    <header className="w-screen flex">
+      <nav className="w-screen flex">
+        <ul className="w-screen flex justify-end relative">
           <button
             type="button"
             onClick={() => setIsOpened(!isOpened)}
-            className=" pt-3 pr-3 z-50"
+            className=" pr-3 z-50"
           >
             {" "}
             {!isOpened ? (
               <img
                 src="../../assets/images/burgerMenu.svg"
                 alt="menu de navigation"
-                className="w-6 h-6 text-lime-200 outline-none active:outline-none fixed top-3	right-3"
+                className="w-6 h-6 text-lime-200 outline-none active:outline-none fixed top-3	right-5"
               />
             ) : (
               <img
                 src="../../assets/images/cross1.svg"
                 alt="menu de navigation"
                 className="w-10 h-10 text-lime-200 outline-none active:outline-none fixed top-3	right-3"
-                width="48px"
               />
             )}
           </button>
