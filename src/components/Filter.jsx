@@ -1,9 +1,9 @@
 import React from "react";
 
-const Filter = () => {
+const Filter = ({location,setlocation}) => {
   return (
     <div>
-      <h1>Filter component</h1>
+      <label>Découvrir à </label>
     </div>
   );
 };
