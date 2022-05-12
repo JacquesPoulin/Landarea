@@ -324,3 +324,5 @@ const plants = [
         withdrawalLimit : '21/06/2022'
     }
 ]
+
+export default plants;
