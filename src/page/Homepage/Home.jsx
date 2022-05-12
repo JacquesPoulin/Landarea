@@ -8,7 +8,12 @@ const Home = () => {
     <div>
 
       <h1>Hero page</h1>
-      <Filter/>
+      <Filter />
+      {/* <div>
+      {plants.filter((_plant,index)=>(
+        <PlantCards key={index}{...plants.city}/>
+      ))}
+      </div> */}
       <div>
         {" "}
         {plants.map((plant, index) => (
