@@ -1,25 +1,24 @@
 import React from "react";
+import cities from "../../data/cities";
 
-const Filter = () => {
+const Filter = ({ cityChoice, setCityChoice }) => {
   return (
     <div className="font-main">
-      <label >
-      Découvrir à {" "}
-          <select name="filter" id="filter" class="border-4 border-solid ">
-            <option value="">choisisez votre ville</option>
-            <option value="1">Anglet</option>
-            <option value="2">Bayonne</option>
-            <option value="3">Biarritz</option>
-            <option value="4">Bidart</option>
-            <option value="5">Boucau</option>
-            <option value="6">Hendaye</option>
-            <option value="7">Ondres</option>
-            <option value="8">Tarnos</option>
-            <option value="9">Urcuit</option>
-            <option value="10">Urt</option>
-            </select>
-        </label>
-     
+      <label>
+        Découvrir à{" "}
+        <select
+          class="border-4 border-solid "
+          onChange={(e) => setCityChoice(e.target.value)}
+        >
+          <option value="">choisisez votre ville</option>
+          {cities.map((city) => (
+            <option key={city.id} value={city.name}>
+              {city.name}
+            </option>
+          ))}
+        </select>
+      </label>
+      {console.log(cityChoice)}
     </div>
   );
 };
