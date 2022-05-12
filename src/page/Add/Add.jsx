@@ -12,8 +12,6 @@ const Add = ({id,name,title,txt,img,newPlants,setNewPlants}) => {
       <HeroAdd id={id} name={name} title={title} txt={txt} img={img}/>
 
       <Form newPlants={newPlants} setNewPlants={setNewPlants}/>
-
-
     </div>
   );
 };
