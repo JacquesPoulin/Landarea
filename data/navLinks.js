@@ -7,7 +7,7 @@ const navLinks = [
   {
     id: 2,
     path: "/add",
-    title: "Proposer sa plante",
+    title: " Vendre sa plante",
   },
   {
     id: 3,
