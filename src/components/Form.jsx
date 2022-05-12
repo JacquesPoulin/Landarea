@@ -1,6 +1,7 @@
 import React,  {useState} from "react";
 import { useForm } from "react-hook-form";
 
+
 const Form = ({newPlants, setNewPlants}) => {
   const { register, handleSubmit } = useForm();
   const temp = [...newPlants] 
@@ -64,7 +65,6 @@ setNewPlants(temp);
               <label htmlFor="plantCare" className="block text-sm font-primary text-gray-700 ">Entretien</label>
               <div className="mt-1">
                 <select {...register("plantCare")} id="plantCare" className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-400">
-
                   <option value="">Séléctionnez</option>
                   <option value="Intérieur">plante d'intérieur</option>
                   <option value="Extérieur">plante d'éxterieur</option>
