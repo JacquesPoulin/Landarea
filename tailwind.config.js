@@ -9,5 +9,9 @@ module.exports = {
     }, colors: {
       "cream":"#FEFAE0",
       "greeny":"#2D6A4F",
-        }}
-}};
+        }
+  }
+}, 
+  Plugin: [require('@tailwindcss/forms')],
+};
+
