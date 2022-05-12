@@ -3,22 +3,21 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Comfortaa";
-    src: url("../src/fonts/Comfortaa-Medium.ttf");
-  }
-  
-  @font-face {
-    font-family: "Comfortaa-Regular";
-    src: url("../src/fonts/Comfortaa-Regular.ttf");
-  }
-  
-  @font-face {
-    font-family: "Comfortaa-Bold";
-    src: url("../src/fonts/Comfortaa-Bold.ttf");
-  }
-  
-  @font-face {
-    font-family: "Comfortaa-Light";
-    src: url("../src/fonts/Comfortaa-Light.ttf");
-  }
+  font-family: "Comfortaa";
+  src: url("../assets/fonts/Comfortaa-Medium.ttf");
+}
 
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("../assets/fonts/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../assets/fonts/Comfortaa-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("../assets/fonts/Comfortaa-Light.ttf");
+}
