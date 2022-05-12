@@ -21,7 +21,7 @@ const NavBar = () => {
 
           <Transition
             show={isOpened}
-            enter="transition-opacity duration-1000"
+            enter="transition-opacity"
             enterFrom="opacity-0"
             enterTo="opacity-100"
             leave="transition-opacity"
@@ -30,8 +30,8 @@ const NavBar = () => {
           >
             {/* MOBILE MENU */}
             {isOpened && (
-              <div className="absolute right-0 w-screen h-screen justify-center m-auto rounded-md top-14 bg-neutral-900">
-                <ul className="items-center justify-center text-3xl text-center text-slate-50 font-exo">
+              <div className="absolute right-0 w-screen h-screen justify-center m-auto rounded-md top-14 bg-cream z-10">
+                <ul className="items-center justify-center text-3xl text-center text-black font-exo">
                   {navLinks.map((link) => (
                     <NavLink
                       key={link.id}

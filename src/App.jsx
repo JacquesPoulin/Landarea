@@ -15,12 +15,12 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="*" element={<Home {...heroes} />} />
-          <Route path="/" element={<Home {...heroes}  />} />
-          <Route path="/home" element={<Home {...heroes}  />} />
+          <Route path="/" element={<Home {...heroes} />} />
+          <Route path="/home" element={<Home {...heroes} />} />
           <Route path="/add" element={<Add {...heroes} />} />
           <Route path="/store" element={<Store {...heroes} />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </HashRouter>
     </div>
   );
