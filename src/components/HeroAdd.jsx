@@ -1,6 +1,7 @@
 import React from "react";
 import heroes from "../../data/heroes";
 
+// on crée le header de la page Add
 const HeroAdd = () => {
   return (
     <div

@@ -2,6 +2,7 @@ import React from "react";
 import heroes from "../../data/heroes";
 import Button from "./Button";
 
+// on crée le header de la page Store
 const HeroStore = () => {
   return (
     <div
