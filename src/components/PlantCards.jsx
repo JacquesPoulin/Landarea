@@ -25,7 +25,7 @@ const PlantCards = (props) => {
           {/* Prix plante et bouton réserver */}
           <div className="flex flex-col justify-around">
             <h2 className="text-right text-2xl">{props.price} €</h2>
-            <button className="rounded-md bg-emerald-800 px-4 text-white">
+            <button className="rounded-md bg-greeny px-4 text-white">
               {" "}
               Réserver{" "}
             </button>
