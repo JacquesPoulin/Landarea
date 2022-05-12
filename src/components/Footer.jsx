@@ -1,9 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+
   return (
     <div>
-      <h1>FOOTER</h1>
+      <div className="flex flex-col justify-center items-center bg-greeny py-3 font-regular">
+        <label> Contactez-nous</label>
+        <input
+          type="text"
+          value={email}
+          placeholder="mon email"
+          className="border-2 my-2 text-center"
+        />
+        <div className="w-2/3 h-[1px] p-0 bg-creamy m-0" />
+      </div>
+      <div className="flex flex-col justify-center items-center bg-greeny/80 py-7">
+        <h2 className="font-regular mb-4"> Ils nous soutiennent</h2>
+        <div className="flex flex-wrap justify-around gap-12 m-5">
+          {/* <img src="../assets/images/nasa.svg" alt="nasa" width="50" /> */}
+          <img src="../assets/images/eelv.png" alt="eelv" width="170" />
+          <img src="../assets/images/wwf.png" alt="wwf" width="80" />
+          <img src="../assets/images/lesverts.png" alt="lesverts" width="90" />
+          <img src="../assets/images/love.svg" alt="love" width="50" />
+
+          <img
+            src="../assets/images/marijuana.svg"
+            alt="marijuana"
+            width="50"
+          />
+
+          <img src="../assets/images/wcs.png" alt="wcs" width="160" />
+        </div>
+      </div>
     </div>
   );
 };

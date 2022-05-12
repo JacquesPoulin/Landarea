@@ -1,7 +1,6 @@
 import React,  {useState} from "react";
 import { useForm } from "react-hook-form";
 
-
 const Form = ({newPlants, setNewPlants}) => {
   const { register, handleSubmit } = useForm();
   const temp = [...newPlants] 
@@ -13,7 +12,9 @@ setNewPlants(temp);
 
   return (
     <div>
-      <h1 className="display flex justify-center font-main">AJOUTEZ VOTRE ANNONCE</h1>
+      <h1 className="display flex justify-center font-main">
+        AJOUTEZ VOTRE ANNONCE
+      </h1>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white py-8 px-6 shadow rounded-lg sm:px-10">
           <form onSubmit={handleSubmit((data) => push(data))} className="mb-0 space-y-6">
@@ -63,6 +64,7 @@ setNewPlants(temp);
               <label htmlFor="plantCare" className="block text-sm font-primary text-gray-700 ">Entretien</label>
               <div className="mt-1">
                 <select {...register("plantCare")} id="plantCare" className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-400">
+
                   <option value="">Séléctionnez</option>
                   <option value="Intérieur">plante d'intérieur</option>
                   <option value="Extérieur">plante d'éxterieur</option>
@@ -77,9 +79,8 @@ setNewPlants(temp);
               </div>
             </div>
             <div>
-              {/* <p>data {data}</p>
-              <p>NP {newPlants}</p> */}
-              <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-400 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400">Sing Up</button>
+              <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-400 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400">Submit</button>
+
             </div>
           </form>
         </div>

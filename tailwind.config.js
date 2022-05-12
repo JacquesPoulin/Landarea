@@ -13,6 +13,9 @@ module.exports = {
         greeny: "#2D6A4F",
       },
     },
+    screens: {
+      bp1: { min: "403px" },
+    },
   },
   Plugin: [require("@tailwindcss/forms")],
 };
