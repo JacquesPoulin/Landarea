@@ -7,4 +7,8 @@ module.exports = {
       second: ["Comfortaa-Light"],
       regular: ["Comfortaa-Regular"],
     }}
-}};
+},
+Plugin: [require('@tailwindcss/forms')],
+};
+
+
