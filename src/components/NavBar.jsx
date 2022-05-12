@@ -55,8 +55,12 @@ const NavBar = () => {
                       to={link.path}
                       onClick={() => setIsOpened(false)}
                     >
-                      <li className="ml-3 font-second hover:underline text-xl border-b-2 py-4 text-slate-50">
+                      <li className="flex justify-between ml-3 font-second hover:underline text-xl border-b-2 py-4 text-slate-50">
                         {link.title}
+                        <img
+                          src="../../assets/images/nav-arrow-right-svgrepo-com.svg"
+                          alt="fleche droite de navigation"
+                        />
                       </li>
                     </NavLink>
                   ))}
