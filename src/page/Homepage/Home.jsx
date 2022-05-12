@@ -1,9 +1,12 @@
 import React from "react";
 import PlantCards from "../../components/PlantCards.jsx";
 import Filter from "../../components/Filter.jsx";
+
+import HeroHome from "../../components/HeroHome.jsx";
+
 import plants from "../../../data/plants.js";
 
-const Home = () => {
+const Home = ({ id, name, title, txt, img }) => {
   return (
     <div>
 
@@ -14,6 +17,7 @@ const Home = () => {
         <PlantCards key={index}{...plants.city}/>
       ))}
       </div> */}
+      <HeroHome id={id} name={name} title={title} txt={txt} img={img} />
       <div>
         {" "}
         {plants.map((plant, index) => (
