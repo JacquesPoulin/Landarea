@@ -9,10 +9,6 @@ const Home = ({ id, name, title, txt, img }) => {
   return (
     <div>
       <HeroHome id={id} name={name} title={title} txt={txt} img={img} />
-      <PlantCards />
-
-      <h1>Hero page</h1>
-
       <div>
         {" "}
         {plants.map((plant, index) => (
