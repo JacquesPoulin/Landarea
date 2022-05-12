@@ -1,13 +1,13 @@
 import React from "react";
 import cities from "../../data/cities";
 
-const Filter = ({ cityChoice, setCityChoice }) => {
+const Filter = ({  setCityChoice }) => {
   return (
-    <div className="font-main">
+    <div className="m-6 text-center font-main">
       <label>
-        Découvrir à{" "}
+        Découvrir à {" "}
         <select
-          className="border-4 border-solid "
+          className="text-gray-800 bg-gray-300 rounded  font-main hover:bg-gray-400"
           onChange={(e) => setCityChoice(e.target.value)}
         >
           <option value="">choisisez votre ville</option>
@@ -18,7 +18,6 @@ const Filter = ({ cityChoice, setCityChoice }) => {
           ))}
         </select>
       </label>
-      {console.log(cityChoice)}
     </div>
   );
 };
