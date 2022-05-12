@@ -1,5 +1,6 @@
 import React from "react";
 
+// on crée les cartes sections de la page Store
 const PopupCards = ({ title, description, url }) => {
   return (
     <div id="PopupCards">
