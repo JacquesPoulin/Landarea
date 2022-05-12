@@ -1,4 +1,5 @@
 import React from "react";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./page/Homepage/Home";
 import Add from "./page/Add/Add";
 import Store from "./page/Store/Store";
@@ -10,11 +11,17 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <NavBar />
-      <Home {...heroes} />
-      <Add {...heroes} />
-      <Store {...heroes} />
-      <Footer />
+      <HashRouter>
+        <NavBar />
+        <Routes>
+          <Route path="*" element={<Home {...heroes} />} />
+          <Route path="/" element={<Home {...heroes} />} />
+          <Route path="/home" element={<Home {...heroes} />} />
+          <Route path="/add" element={<Add {...heroes} />} />
+          <Route path="/store" element={<Store {...heroes} />} />
+        </Routes>
+        <Footer />
+      </HashRouter>
     </div>
   );
 }
