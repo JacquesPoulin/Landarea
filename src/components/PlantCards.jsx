@@ -10,7 +10,7 @@ const PlantCards = ({
   price,
 }) => {
   return (
-    <div className="flex justify-center py-5">
+    <div className="flex justify-around py-5">
       <div className="relative w-11/12 shadow-xl font-main rounded-xl">
         <img
           src={url}
@@ -18,7 +18,7 @@ const PlantCards = ({
           className="object-cover w-full h-50 rounded-xl"
         />
         {/* Informations plante */}
-        <div className="absolute bottom-0 flex flex-row w-full px-2 py-2 bg-slate-50/80">
+        <div className="absolute bottom-0 flex flex-row w-full justify-around px-2 py-2 bg-slate-50/80">
           <div className="flex flex-col">
             <h1 className="text-xl z-3">{name}</h1>
             <h2 className="text-xs z-3">{plantCare}</h2>
