@@ -2,7 +2,7 @@ import React from "react";
 
 const PopupCards = ({ title, description, url }) => {
   return (
-    <div>
+    <div id="PopupCards">
       <div className="">
         <h1 className="m-5 mt-20 mb-10 text-4xl text-center font-primary">
           {title}
