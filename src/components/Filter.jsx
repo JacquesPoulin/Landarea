@@ -1,11 +1,11 @@
 import React from "react";
 import cities from "../../data/cities";
 
-const Filter = ({  setCityChoice }) => {
+const Filter = ({ setCityChoice }) => {
   return (
     <div className="m-6 text-center font-main">
       <label>
-        Découvrir à {" "}
+        Découvrir à{" "}
         <select
           className="text-gray-800 bg-gray-300 rounded  font-main hover:bg-gray-400"
           onChange={(e) => setCityChoice(e.target.value)}

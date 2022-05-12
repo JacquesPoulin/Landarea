@@ -17,12 +17,12 @@ const NavBar = () => {
           >
             <img
               src="../../assets/images/burgerMenu.svg"
-              alt=""
-              className="w-6 h-6 text-lime-200"
+              alt="menu de navigation"
+              className="w-6 h-6 text-lime-200 outline-none active:outline-none"
             />
           </button>
-          {/* Transition : to FADE IN and FADE OUT */}
 
+          {/* Transition : to FADE IN and FADE OUT */}
           <Transition
             show={isOpened}
             enter="transition-opacity"
@@ -34,13 +34,17 @@ const NavBar = () => {
           >
             {/* MOBILE MENU */}
             {isOpened && (
-              <div className="absolute right-0 w-full h-screen justify-center m-auto bg-cream z-10">
-                <img
-                  src="https://i.pinimg.com/originals/b1/14/fa/b114fa2591d6d4702b1b9442011f9db3.jpg"
-                  alt=""
-                  className="w-20 h-20 m-auto mt-10"
-                />
-                <ul className="items-center justify-center text-3xl text-black font-exo">
+              <div className="absolute right-0 w-full h-screen justify-center m-auto bg-greeny z-10">
+                <div className=" w-full h-auto flex flex-col mt-20 justify-center text-center mb-6">
+                  <h1 className="text-xl font-medium">LANDAREA</h1>
+                  <img
+                    src="../../assets/images/LOGO.png"
+                    alt=""
+                    className="w-20 h-20 m-auto"
+                  />
+                  <h3> Le paradis des plantes</h3>
+                </div>
+                <ul className="items-center justify-center text-black">
                   {navLinks.map((link) => (
                     <NavLink
                       key={link.id}
