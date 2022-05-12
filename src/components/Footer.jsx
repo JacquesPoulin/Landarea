@@ -13,7 +13,7 @@ const Footer = () => {
           placeholder="mon email"
           className="border-2 my-2 text-center"
         />
-        <div className="w-2/3 h-[1px] p-0 bg-creamy m-0"></div>
+        <div className="w-2/3 h-[1px] p-0 bg-creamy m-0" />
       </div>
       <div className="flex flex-col justify-center items-center bg-greeny/80 py-7">
         <h2 className="font-regular mb-4"> Ils nous soutiennent</h2>
