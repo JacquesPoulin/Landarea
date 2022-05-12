@@ -1,10 +1,10 @@
 module.exports = {
   content: ["./src/**/*.{html,jsx}"],
-  extend: {
+  theme: {extend: {
     fontFamily: {
-      main: ["../src/fonts/Comfortaa-Medium.ttf"],
+      main: ["Comfortaa"],
       primary: ["Comfortaa-Bold"],
       second: ["Comfortaa-Light"],
       regular: ["Comfortaa-Regular"],
     }}
-};
+}};
