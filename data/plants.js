@@ -6,7 +6,9 @@ const plants = [
     adress: "45 rue du code",
     city: "Anglet",
     place: "Jardiland",
+
     price: 4,
+
     color: "Tricolor",
     plantCare: "Extérieur",
     withdrawalLimit: "24/O5/2022",
@@ -19,7 +21,9 @@ const plants = [
     adress: "45 rue du wild",
     city: "Biarritz",
     place: "Bricomarché",
+
     price: 2,
+
     color: "Tricolor",
     plantCare: "Extérieur",
     withdrawalLimit: "18/05/2022",
@@ -32,7 +36,9 @@ const plants = [
     adress: "12 rue school",
     city: "Bayonne",
     place: "La Fleur pour tous",
+
     price: 6,
+
     color: "Rouge",
     plantCare: "Extérieur",
     withdrawalLimit: "18/05/2022",
@@ -45,7 +51,9 @@ const plants = [
     adress: "26 rue de la royauté",
     city: "Urt",
     place: "Plante des Fleurs",
+
     price: 5,
+
     color: "Tricolor",
     plantCare: "Extérieur",
     withdrawalLimit: "16/05/2022",
@@ -58,7 +66,9 @@ const plants = [
     adress: "6 rue de la code school",
     city: "Anglet",
     place: "L'idée plante",
+
     price: 5,
+
     color: "Rose-Violet",
     plantCare: "Extérieur",
     withdrawalLimit: "30/05/2022",
@@ -71,7 +81,9 @@ const plants = [
     adress: "45 rue du code",
     city: "Anglet",
     place: "Jardiland",
+
     price: 7,
+
     color: "Rose",
     plantCare: "intérieur",
     withdrawalLimit: "24/O5/2022",
@@ -84,7 +96,9 @@ const plants = [
     adress: "45 rue du wild",
     city: "Biarritz",
     place: "Bricomarché",
+
     price: 2,
+
     color: "Rose",
     plantCare: "intérieur",
     withdrawalLimit: "17/05/2022",
@@ -97,7 +111,9 @@ const plants = [
     adress: "12 rue school",
     city: "Bayonne",
     place: "La fleurs pour tous",
+
     price: 9,
+
     color: "Rose",
     plantCare: "intérieur",
     withdrawalLimit: "23/05/2022",
@@ -110,7 +126,9 @@ const plants = [
     adress: "26 rue de la royauté",
     city: "Urt",
     place: "Plante des Fleurs",
+
     price: 1,
+
     color: "Blanc",
     plantCare: "intérieur",
     withdrawalLimit: "26/05/2022",
@@ -123,7 +141,9 @@ const plants = [
     adress: "6 rue de la code school",
     city: "Anglet",
     place: "L'idée plante",
+
     price: 3,
+
     color: "Jaune",
     plantCare: "intérieur",
     withdrawalLimit: "29/05/2022",
@@ -136,7 +156,9 @@ const plants = [
     adress: "33 rue du Roi",
     city: "Bidart",
     place: "Jardiland",
+
     price: 0.50,
+
     color: "Jaune",
     plantCare: "Bassin",
     withdrawalLimit: "12/O6/2022",
@@ -149,7 +171,9 @@ const plants = [
     adress: "1 rue de Javascript",
     city: "Hendaye",
     place: "Planta la plante",
+
     price: 0.20,
+
     color: "Violet",
     plantCare: "Bassin",
     withdrawalLimit: "17/06/2022",
@@ -162,7 +186,9 @@ const plants = [
     adress: "1 rue de Javascript",
     city: "Hendaye",
     place: "Planta la plante",
+
     price: 0.10,
+
     color: "Bleu-Violet",
     plantCare: "Bassin",
     withdrawalLimit: "23/06/2022",
@@ -175,7 +201,9 @@ const plants = [
     adress: "26 rue de la royauté",
     city: "Urt",
     place: "Plante des Fleurs",
+
     price: 1,
+
     color: "Marron",
     plantCare: "Bassin",
     withdrawalLimit: "20/05/2022",
@@ -188,7 +216,9 @@ const plants = [
     adress: "6 rue de la code school",
     city: "Anglet",
     place: "L'idée plante",
+
     price: 3,
+
     color: "Jaune",
     plantCare: "intérieur",
     withdrawalLimit: "29/05/2022",
@@ -201,7 +231,9 @@ const plants = [
     adress: "6 rue du petit bayonne",
     city: "Tarnos",
     place: "Aux Plantes",
+
     price: 12,
+
     color: "Vert",
     plantCare: "Intérieur",
     withdrawalLimit: "04/O6/2022",
@@ -214,7 +246,9 @@ const plants = [
     adress: "45 rue du wild",
     city: "Biarritz",
     place: "Bricomarché",
+
     price: 5,
+
     color: "Vert",
     plantCare: "Intérieur",
     withdrawalLimit: "25/05/2022",
@@ -227,7 +261,9 @@ const plants = [
     adress: "98 rue Playa",
     city: "Boucau",
     place: "Belles Plantes",
+
     price: 14,
+
     color: "Vert",
     plantCare: "Intérieur",
     withdrawalLimit: "13/05/2022",
@@ -240,7 +276,9 @@ const plants = [
     adress: "26 rue de la royauté",
     city: "Urt",
     place: "Plante des Fleurs",
+
     price: 8,
+
     color: "Vert",
     plantCare: "Intérieur",
     withdrawalLimit: "16/06/2022",
@@ -253,7 +291,9 @@ const plants = [
     adress: "6 rue de la code school",
     city: "Anglet",
     place: "L'idée plante",
+
     price: 18,
+
     color: "Vert",
     plantCare: "Intérieur",
     withdrawalLimit: "30/06/2022",
@@ -266,7 +306,9 @@ const plants = [
     adress: "6 rue du petit bayonne",
     city: "Tarnos",
     place: "Aux Plantes",
+
     price: 1,
+
     color: "Rouge",
     plantCare: "Intérieur",
     withdrawalLimit: "04/O6/2022",
@@ -279,7 +321,9 @@ const plants = [
     adress: "45 rue du wild",
     city: "Biarritz",
     place: "Bricomarché",
+
     price: 30,
+
     color: "Rouge",
     plantCare: "Intérieur",
     withdrawalLimit: "25/06/2022",
@@ -292,7 +336,9 @@ const plants = [
     adress: "98 rue Playa",
     city: "Boucau",
     place: "Belles Plantes",
+
     price: 1.50,
+
     color: "Gris",
     plantCare: "Intérieur",
     withdrawalLimit: "03/06/2022",
@@ -305,7 +351,9 @@ const plants = [
     adress: "26 rue de la reinerie",
     city: "Urcuit",
     place: "La main verte",
+
     price: 6,
+
     color: "Gris",
     plantCare: "Intérieur",
     withdrawalLimit: "25/06/2022",
@@ -318,7 +366,9 @@ const plants = [
     adress: "17 rue de Tailwind",
     city: "Ondres",
     place: "Une Fleur",
+
     price: 2.50,
+
     color: "Tricolor",
     plantCare: "Intérieur",
     withdrawalLimit: "21/06/2022",
