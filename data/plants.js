@@ -157,7 +157,7 @@ const plants = [
     city: "Bidart",
     place: "Jardiland",
 
-    price: 0.50,
+    price: 0.5,
 
     color: "Jaune",
     plantCare: "Bassin",
@@ -172,7 +172,7 @@ const plants = [
     city: "Hendaye",
     place: "Planta la plante",
 
-    price: 0.20,
+    price: 0.2,
 
     color: "Violet",
     plantCare: "Bassin",
@@ -187,7 +187,7 @@ const plants = [
     city: "Hendaye",
     place: "Planta la plante",
 
-    price: 0.10,
+    price: 0.1,
 
     color: "Bleu-Violet",
     plantCare: "Bassin",
@@ -337,7 +337,7 @@ const plants = [
     city: "Boucau",
     place: "Belles Plantes",
 
-    price: 1.50,
+    price: 1.5,
 
     color: "Gris",
     plantCare: "Intérieur",
@@ -367,7 +367,7 @@ const plants = [
     city: "Ondres",
     place: "Une Fleur",
 
-    price: 2.50,
+    price: 2.5,
 
     color: "Tricolor",
     plantCare: "Intérieur",

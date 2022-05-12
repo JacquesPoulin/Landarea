@@ -1,7 +1,7 @@
 import React from "react";
 import heroes from "../../data/heroes";
 
-const HeroHome = ({ id, name, title, txt, img }) => {
+const HeroHome = () => {
   return (
     <div
       className={`flex flex-col m-0 bg-[url('../assets/images/heroes5.jpg')] h-[70vh] bg-cover`}
