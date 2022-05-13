@@ -2,19 +2,26 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import Modale from "./Modale";
 
-const Form = ({newPlants, setNewPlants, isDark}) => {
-  const [modalOn, setModalOn]= useState(false);
-  const [choice, setChoice]= useState(false);
+const Form = ({ newPlants, setNewPlants, isDark }) => {
+  const [modalOn, setModalOn] = useState(false);
+  const [choice, setChoice] = useState(false);
   const { register, handleSubmit } = useForm();
   const temp = [...newPlants];
+
   const push = (data) => {
-temp.unshift(data);
-setNewPlants(temp);
-}
+    temp.unshift(data);
+    setNewPlants(temp);
+  };
 
   return (
     <div>
-      <h1 className={isDark?`display flex justify-center font-main mt-10`:`display flex justify-center font-main mt-10 text-green-600`}>
+      <h1
+        className={
+          isDark
+            ? `display flex justify-center font-main mt-10`
+            : `display flex justify-center font-main mt-10 text-green-600`
+        }
+      >
         AJOUTEZ VOTRE ANNONCE
       </h1>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
@@ -53,7 +60,7 @@ setNewPlants(temp);
                 <input
                   {...register("url")}
                   name="url"
-                  type="url" 
+                  type="url"
                   src=""
                   autoComplete="url"
                   required
@@ -195,25 +202,32 @@ setNewPlants(temp);
                   placeholder="JJ/MM/AAAA"
                   autoComplete="withdrawalLimit"
 
-
-
                   required
-
-
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
 
                 />
               </div>
             </div>
             <div>
-              <button type="submit" className="flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-green-700 border border-transparent rounded-md shadow-sm hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 " onClick={()=>setModalOn(true)}>Valider</button>
-              {choice &&
-                  <div className="flex justify-center mt-5">
-                  <div className="flex flex-col w-full p-6 text-lg text-center text-white bg-green-700">Merci d'avoir déposé 
-                  <span className="justify-center">votre anonce</span></div>
+              <button
+                type="submit"
+                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-700 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 "
+                onClick={() => setModalOn(true)}
+              >
+                Valider
+              </button>
+              {choice && (
+                <div className="flex justify-center mt-5">
+                  <div className="flex flex-col w-full text-center bg-green-700  p-6 text-lg text-white">
+                    Merci d'avoir déposé
+                    <span className="justify-center">votre anonce</span>
+                  </div>
+
                 </div>
-              }
-              {modalOn && <Modale setModalOn={setModalOn} setChoice={setChoice} />}
+              )}
+              {modalOn && (
+                <Modale setModalOn={setModalOn} setChoice={setChoice} />
+              )}
             </div>
           </form>
         </div>
