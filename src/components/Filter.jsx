@@ -1,11 +1,10 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import plants from "../../data/plants";
 
-const Filter = ({ setCityChoice, setIsFilter,isDark }) => {
+const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
   const newCityArray = [];
 
-  plants.map(
+  newPlants.map(
     (plant) =>
       !newCityArray.includes(plant.city) && newCityArray.push(plant.city)
   );
@@ -15,17 +14,21 @@ const Filter = ({ setCityChoice, setIsFilter,isDark }) => {
       <div className="flex flex-col justify-center">
         <label
           htmlFor="city"
-          className={!isDark?`font-medium flex flex-col justify-center`:`font-medium flex flex-col justify-center text-green-600`}
+          className={
+            !isDark
+              ? `font-medium flex flex-col justify-center`
+              : `font-medium flex flex-col justify-center text-green-600`
+          }
         >
           Choisisez votre ville{" "}
           <select
-            className="rounded font-main text-center m-auto mt-4 mb-4 border-b-4 border-green-800"
+            className="rounded font-main text-center m-auto mt-4 mb-4 border-b-4 border-green-800 cursor-pointer"
             onChange={(e) => setCityChoice(e.target.value)}
           >
             <option
               value=""
               className="text-black
-            text-center rounded-md"
+            text-center rounded-md cursor-pointer outline-none active:outline-none focus:outline-none"
             >
               Toutes
             </option>
