@@ -14,6 +14,7 @@ const Home = ({ id, name, title, txt, img, newPlants }) => {
         cityChoice={cityChoice}
         setCityChoice={setCityChoice}
         setIsFilter={setIsFilter}
+        newPlants={newPlants}
       />
       {newPlants &&
         newPlants
