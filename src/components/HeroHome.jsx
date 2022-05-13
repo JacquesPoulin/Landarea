@@ -10,8 +10,8 @@ const HeroHome = ({ isDark }) => {
       <h1
         className={
           !isDark
-            ? `m-5 mt-20 mb-10 text-7xl text-center font-primary text-slate-50`
-            : `m-5 mt-20 mb-10 text-7xl text-center font-primary text-red-600`
+            ? `m-5 mt-20 mb-10 text-4xl text-center font-primary text-slate-50 bp2:text-7xl`
+            : `m-5 mt-20 mb-10 text-4xl text-center font-primary text-red-600 bp2:text-7xl`
         }
       >
         {heroes[0].title}
