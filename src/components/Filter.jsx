@@ -1,7 +1,15 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import plants from "../../data/plants";
 
 const Filter = ({ setCityChoice, setIsFilter }) => {
+  const newCityArray = [];
+
+  plants.map(
+    (plant) =>
+      !newCityArray.includes(plant.city) && newCityArray.push(plant.city)
+  );
+
   return (
     <div className="m-6 text-center font-main">
       <div className="flex flex-col justify-center">
@@ -21,11 +29,12 @@ const Filter = ({ setCityChoice, setIsFilter }) => {
             >
               Toutes
             </option>
-            {plants
-              .sort((a, b) => (a.city > b.city ? 1 : -1))
-              .map((plant) => (
-                <option key={plant.id} value={plant.city}>
-                  {plant.city}
+
+            {/* Trier et Mapper les villes */}
+            {newCityArray &&
+              newCityArray.sort().map((city, index) => (
+                <option key={index} value={city}>
+                  {city}
                 </option>
               ))}
           </select>

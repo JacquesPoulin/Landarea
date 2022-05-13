@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 
 const PlantCards = ({
@@ -33,7 +34,10 @@ const PlantCards = ({
           {/* Prix plante et bouton réserver */}
           <div className="flex flex-col justify-around">
             <h2 className="text-2xl text-right">{price} €</h2>
-            <button className="px-4 text-white rounded-md bg-greeny">
+            <button
+              type="button"
+              className="px-4 text-white rounded-md bg-greeny"
+            >
               {" "}
               Réserver{" "}
             </button>

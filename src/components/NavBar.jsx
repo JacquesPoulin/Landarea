@@ -4,14 +4,14 @@ import { Transition } from "@tailwindui/react";
 import navLinks from "../../data/navLinks";
 import plants2 from "../../data/plants2";
 
-const NavBar = ({setNewPlants, isDark, setIsDark}) => {
+const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
   const [isOpened, setIsOpened] = useState(false);
-  
-// function darkmode
+
+  // function darkmode
   const changeDark = () => {
     setNewPlants(plants2);
-    setIsDark(true)
-  }
+    setIsDark(true);
+  };
 
   return (
     <header className="w-screen flex">
@@ -51,7 +51,13 @@ const NavBar = ({setNewPlants, isDark, setIsDark}) => {
             {/* MOBILE MENU */}
             {isOpened && (
               // changement de BG au darkmode
-              <div className={!isDark ? `fixed right-0 w-full h-screen justify-center m-auto bg-greeny z-10` : `fixed right-0 w-full h-screen justify-center m-auto bg-stone-800 z-10`}>
+              <div
+                className={
+                  !isDark
+                    ? `fixed right-0 w-full h-screen justify-center m-auto bg-greeny z-10`
+                    : `fixed right-0 w-full h-screen justify-center m-auto bg-stone-800 z-10`
+                }
+              >
                 <div className=" w-full h-auto flex flex-col mt-20 justify-center text-center mb-6">
                   <h1 className="text-xl text-slate-50 font-primary">
                     LANDAREA
