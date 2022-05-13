@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Transition } from "@tailwindui/react";
 import navLinks from "../../data/navLinks";
 import plants2 from "../../data/plants2";
+import plants from "../../data/plants";
 
 const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
   const [isOpened, setIsOpened] = useState(false);
@@ -12,7 +13,7 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
   // letsgo
 
   const changeDark = () => {
-    setNewPlants(plants2);
+    !isDark?setNewPlants(plants2):setNewPlants(plants);
     setIsDark(!isDark);
   };
 
@@ -68,7 +69,7 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
                   <input
                     src={!isDark?`../../assets/images/LOGO.png`:`../../assets/images/marijuana.svg`}
                     alt=""
-                    className="w-20 h-20 m-auto"
+                    className="w-20 h-20 m-auto cursor-none"
                     type="image"
                     onClick={changeDark}
                   />
