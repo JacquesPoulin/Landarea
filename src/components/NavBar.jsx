@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import propTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import { Transition } from "@tailwindui/react";
 import navLinks from "../../data/navLinks";
@@ -9,10 +10,8 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
   const [isOpened, setIsOpened] = useState(false);
 
   // >> DARK MODE FUNCTION
-  // function darkmode
-  // on envoi le jus
-  // letsgo
 
+  // function darkmode
   const changeDark = () => {
     !isDark ? setNewPlants(plants2) : setNewPlants(plants);
     setIsDark(!isDark);
@@ -46,13 +45,13 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
               {" "}
               {!isOpened ? (
                 <img
-                  src="../../assets/images/burgerMenu.svg"
+                  src="../../public/static/logo/burgerMenu.svg"
                   alt="menu de navigation"
                   className="w-6 h-6 text-lime-200 outline-none active:outline-none fixed top-3	right-5"
                 />
               ) : (
                 <img
-                  src="../../assets/images/cross1.svg"
+                  src="../../public/static/logo/cross1.svg"
                   alt="menu de navigation"
                   className="w-10 h-10 text-lime-200 outline-none active:outline-none fixed top-3	right-3"
                 />
@@ -125,6 +124,12 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
       </header>
     </div>
   );
+};
+
+NavBar.propTypes = {
+  setNewPlants: propTypes.func.isRequired,
+  isDark: propTypes.bool.isRequired,
+  setIsDark: propTypes.func.isRequired,
 };
 
 export default NavBar;

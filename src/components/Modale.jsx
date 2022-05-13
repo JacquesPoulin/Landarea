@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from "prop-types";
 
 const Modale = ({ setModalOn, setChoice }) => {
   const handleOkClick = () => {
@@ -39,6 +40,11 @@ const Modale = ({ setModalOn, setChoice }) => {
       </div>
     </div>
   );
+};
+
+Modale.propTypes = {
+  setChoice: propTypes.func.isRequired,
+  setModalOn: propTypes.func.isRequired,
 };
 
 export default Modale;

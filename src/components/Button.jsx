@@ -14,7 +14,11 @@ const Button = () => {
       >
         {/* on utilise l'id de la div #PopupCards pour scroll vers cette div */}
         <button type="button" href="#PopupCards">
-          <img src="../assets/images/arrow.png" alt="scrolldown" className="" />
+          <img
+            src="../../assets/images/arrow.png"
+            alt="scrolldown"
+            className=""
+          />
         </button>
       </Link>
     </div>
