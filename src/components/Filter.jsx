@@ -22,13 +22,12 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
         >
           Choisisez votre ville{" "}
           <select
-            className="rounded font-main text-center m-auto mt-4 mb-4 border-b-4 border-green-800 cursor-pointer"
+            className="m-auto mt-4 mb-4 text-center border-b-4 border-green-800 rounded cursor-pointer font-main"
             onChange={(e) => setCityChoice(e.target.value)}
           >
             <option
               value=""
-              className="text-black
-            text-center rounded-md cursor-pointer outline-none active:outline-none focus:outline-none"
+              className="text-center text-black rounded-md outline-none cursor-pointer active:outline-none focus:outline-none"
             >
               Toutes
             </option>

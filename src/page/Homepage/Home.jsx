@@ -16,11 +16,13 @@ const Home = ({ id, name, title, txt, img, newPlants }) => {
         setIsFilter={setIsFilter}
         newPlants={newPlants}
       />
-      {newPlants &&
-        newPlants
-          .filter((plant) => plant.city === cityChoice || !cityChoice)
-          .sort((a, b) => (isFilter ? b.price - a.price : a.price - b.price))
-          .map((plant) => <PlantCards key={plant.id} {...plant} />)}
+      <div className="bp2:flex bp2:flex-row bp2:flex-wrap bp2:justify-around">
+        {newPlants &&
+          newPlants
+            .filter((plant) => plant.city === cityChoice || !cityChoice)
+            .sort((a, b) => (isFilter ? b.price - a.price : a.price - b.price))
+            .map((plant) => <PlantCards key={plant.id} {...plant} />)}
+      </div>
     </div>
   );
 };
