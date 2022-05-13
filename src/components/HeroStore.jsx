@@ -14,7 +14,6 @@ const HeroStore = () => {
       <p className="font-regular m-5 text-xl text-center text-slate-50">
         {heroes[2].txt}
       </p>
-
       <Button />
     </div>
   );
