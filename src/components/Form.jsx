@@ -38,6 +38,7 @@ setNewPlants(temp);
                   type="text"
                   autoComplete="name"
                   required
+                  placeholder="fleur"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-x-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
@@ -57,6 +58,7 @@ setNewPlants(temp);
                   src=""
                   autoComplete="url"
                   required
+                  placeholder="https://"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
@@ -75,6 +77,7 @@ setNewPlants(temp);
                   type="text"
                   autoComplete="adress"
                   required
+                  placeholder="1 rue de la belle plante"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
@@ -93,6 +96,7 @@ setNewPlants(temp);
                   type="text"
                   autoComplete="city"
                   required
+                  placeholder="Biarritz"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
@@ -111,6 +115,7 @@ setNewPlants(temp);
                   type="text"
                   autoComplete="place"
                   required
+                  placeholder="chez moi"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
@@ -129,6 +134,7 @@ setNewPlants(temp);
                   type="number"
                   autoComplete="price"
                   required
+                  placeholder="1"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
@@ -147,6 +153,7 @@ setNewPlants(temp);
                   type="text"
                   autoComplete="color"
                   required
+                  placeholder="rose"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
@@ -185,6 +192,7 @@ setNewPlants(temp);
                   type="text"
                   autoComplete="withdrawalLimit"
                   required
+                  placeholder="jj/mm/aaaa"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
