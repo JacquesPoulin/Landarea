@@ -73,7 +73,7 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
                     onClick={changeDark}
                   />
                   <h3 className="font-regular text-slate-50">
-                  {!isDark?`Le paradis des plantes`:`Les plantes du paradis`}
+                  {!isDark?`Le paradis des plantes`:`Les plantes de l'enfer`}
                   </h3>
                 </div>
                 <ul className="items-center justify-center text-black mt-24">
