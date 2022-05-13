@@ -27,6 +27,7 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
           >
             <option
               value=""
+
               className="text-black
             text-center rounded-md cursor-pointer outline-none active:outline-none focus:outline-none bp2:xs"
             >

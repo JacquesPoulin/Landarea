@@ -25,7 +25,7 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
         AJOUTEZ VOTRE ANNONCE
       </h1>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
-        <div className="bg-white py-8 px-6 shadow rounded-lg sm:px-10">
+        <div className="px-6 py-8 bg-white rounded-lg shadow sm:px-10">
           <form
             onSubmit={handleSubmit((data) => push(data))}
             className="mb-0 space-y-6"
@@ -33,7 +33,7 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
             <div>
               <label
                 htmlFor="Plants name"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Nom de la Fleur
               </label>
@@ -45,14 +45,14 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   autoComplete="name"
                   required
                   placeholder="fleur"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-x-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-x-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="url"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Url de l'Image
               </label>
@@ -65,14 +65,14 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   autoComplete="url"
                   required
                   placeholder="https://"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="adress"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Adresse{" "}
               </label>
@@ -84,14 +84,14 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   autoComplete="adress"
                   required
                   placeholder="1 rue de la belle plante"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="city"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Ville{" "}
               </label>
@@ -103,14 +103,14 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   autoComplete="city"
                   required
                   placeholder="Biarritz"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="place"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Lieu{" "}
               </label>
@@ -122,14 +122,14 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   autoComplete="place"
                   required
                   placeholder="chez moi"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="price"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Prix{" "}
               </label>
@@ -141,14 +141,14 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   autoComplete="price"
                   required
                   placeholder="1"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="color"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Couleur{" "}
               </label>
@@ -160,14 +160,14 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   autoComplete="color"
                   required
                   placeholder="rose"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="plantCare"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Entretien
               </label>
@@ -175,8 +175,10 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                 <select
                   {...register("plantCare")}
                   id="plantCare"
+
                   required
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+
                 >
                   <option value="">Séléctionnez</option>
                   <option value="Intérieur">plante d'intérieur</option>
@@ -188,7 +190,7 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
             <div>
               <label
                 htmlFor="withdrawalLimit"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Date limite de retrait{" "}
               </label>
@@ -199,8 +201,10 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   type="date"
                   placeholder="JJ/MM/AAAA"
                   autoComplete="withdrawalLimit"
+
                   required
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+
                 />
               </div>
             </div>
@@ -218,6 +222,7 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                     Merci d'avoir déposé
                     <span className="justify-center">votre anonce</span>
                   </div>
+
                 </div>
               )}
               {modalOn && (
