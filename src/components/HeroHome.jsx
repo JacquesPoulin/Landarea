@@ -19,8 +19,8 @@ const HeroHome = ({ isDark }) => {
       <p
         className={
           !isDark
-            ? `m-5 text-2xl text-center font-regular text-slate-50`
-            : `m-5 text-2xl text-center font-regular text-yellow-500`
+            ? `m-5 text-xl text-center font-regular text-slate-50 bp2:text-2xl`
+            : `m-5 text-xl text-center font-regular text-yellow-500 bp2:text-2xl`
         }
       >
         {heroes[0].txt}

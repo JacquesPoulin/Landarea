@@ -3,7 +3,7 @@ const heroes = [
   {
     id: 1,
     name: "HOME",
-    title: "Récuperez vos plantes",
+    title: "LANDAREA",
     txt: "Toutes ces beautés sont disponibles et n'attendent plus que vous pour les adopter !",
     img: "../assets/images/heroes1.jpg",
     link: "",
