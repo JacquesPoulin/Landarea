@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
-
   return (
     <div>
       <div className="flex flex-col justify-center items-center bg-greeny py-3 font-regular w-full">
@@ -12,7 +10,7 @@ const Footer = () => {
         </label>
         <input
           type="text"
-          value={email}
+          value=""
           placeholder="mon email"
           className="border-2 my-2 text-center"
         />
