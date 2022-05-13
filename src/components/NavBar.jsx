@@ -10,7 +10,7 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
   // function darkmode
   const changeDark = () => {
     setNewPlants(plants2);
-    setIsDark(true);
+    setIsDark(!isDark);
   };
 
   return (
