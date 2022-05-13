@@ -10,7 +10,7 @@ const Modale = ({setModalOn, setChoice}) => {
         setModalOn(false)
     }
   return (
-    <div className=" bg-zinc-200 opacity-80 fixed inset-0 z-50">
+    <div className=" bg-zinc-200 opacity-95 fixed inset-0 z-50">
         <div className="h-screen justify-center items-center">
             <div className="flex-col justify-center bg-black py-12 px-24 border-4 border-green-700 rounded-xl ">
                 <div className="w-full flex flex-col justify-center text-lg text-white mr-2 mb-10">Votre annonce sera bien prise en compte. 
