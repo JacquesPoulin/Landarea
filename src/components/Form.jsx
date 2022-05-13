@@ -37,7 +37,7 @@ setNewPlants(temp);
                   name="name"
                   type="text"
                   autoComplete="name"
-                  required="required"
+                  required
                   placeholder="fleur"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-x-green-700 focus:ring focus:ring-green-700"
                 />
@@ -57,7 +57,7 @@ setNewPlants(temp);
                   type="url" 
                   src=""
                   autoComplete="url"
-                  required="required"
+                  required
                   placeholder="https://"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -76,7 +76,7 @@ setNewPlants(temp);
                   name="adress"
                   type="text"
                   autoComplete="adress"
-                  required="required"
+                  required
                   placeholder="1 rue de la belle plante"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -95,7 +95,7 @@ setNewPlants(temp);
                   name="city"
                   type="text"
                   autoComplete="city"
-                  required="required"
+                  required
                   placeholder="Biarritz"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -114,7 +114,7 @@ setNewPlants(temp);
                   name="place"
                   type="text"
                   autoComplete="place"
-                  required="required"
+                  required
                   placeholder="chez moi"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -133,7 +133,7 @@ setNewPlants(temp);
                   name="price"
                   type="number"
                   autoComplete="price"
-                  required="required"
+                  required
                   placeholder="1"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -152,7 +152,7 @@ setNewPlants(temp);
                   name="color"
                   type="text"
                   autoComplete="color"
-                  required="required"
+                  required
                   placeholder="rose"
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -169,7 +169,7 @@ setNewPlants(temp);
                 <select
                   {...register("plantCare")}
                   id="plantCare"
-                  required="required"
+                  required
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 >
                   <option value="">Séléctionnez</option>
@@ -193,7 +193,11 @@ setNewPlants(temp);
                   type="date"
                   placeholder="JJ/MM/AAAA"
                   autoComplete="withdrawalLimit"
+<<<<<<< HEAD
                   required
+=======
+                  required                  
+>>>>>>> 8c56e7e62d0dda6c43435c4709051a5437b4bddf
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
