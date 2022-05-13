@@ -1,24 +1,24 @@
 const popups = [
   {
     id: 1,
-    title: "Petits bobos",
-    url: "https://www.18h39.fr/wp-content/uploads/2018/10/Plante-Verte-Grand-mere-HOME-1250x550.jpg",
+    title: "Pour_les_petits_bobos",
+    url: "../assets/images/store2.jpeg",
     description:
-      "On s’occupe des petits bobos de vos plantes et on vous donne des conseils d’entretien",
+      "La vie n'est pas un long fleuve tranquille alors on s’occupe de vos plantes et on vous donne des conseils d’entretien",
   },
   {
     id: 2,
-    title: "Petits orphelins",
-    url: "https://www.jardindesplantesdeparis.fr/sites/jardindesplantes.fr/files/styles/widget_diaporama/public/thumbnails/image/0679-00003120181023.jpg?itok=kKLYpT65",
+    title: "Pour_les_petits_orphelins",
+    url: "../assets/images/store1.jpeg",
     description:
-      "Déposez vos plantes et participez aux ventes événementielles de plantes",
+      "Déposez vos plantes, racontez-nous votre histoire et participez à nos ventes privées tous les samedis",
   },
   {
     id: 3,
-    title: "Seconde beauté",
-    url: "https://maison.20minutes.fr/wp-content/uploads/2020/10/istock-921493648.jpg",
+    title: "Pour_une_seconde beauté",
+    url: "../assets/images/heroes6.jpg",
     description:
-      "Parfois nos fleurs ne trouvent pas preneur, alors on leur redonne une seconde beauté. Découvrez notre sélection de fleurs séchées ",
+      "Parfois nos fleurs ne trouvent pas l'amour, alors on leur redonne une seconde beauté. Découvrez notre sélection de fleurs ! ",
   },
 ];
 
