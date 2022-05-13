@@ -14,7 +14,8 @@ module.exports = {
       },
     },
     screens: {
-      bp1: { min: "403px" },
+      bp1: { max: "800px" },
+      bp2: { min: "800px" },
     },
   },
   Plugin: [require("@tailwindcss/forms")],
