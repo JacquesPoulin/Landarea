@@ -65,7 +65,7 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
                   <input
                     src={!isDark?`../../assets/images/LOGO.png`:`../../assets/images/marijuana.svg`}
                     alt=""
-                    className="w-20 h-20 m-auto cursor-pointer"
+                    className="w-20 h-20 m-auto"
                     type="image"
                     onClick={changeDark}
                   />
