@@ -8,7 +8,7 @@ const Button = () => {
       <Link activeClass="active" to="PopupCards" duration={1000} delay={200} smooth="true">
         {/* on utilise l'id de la div #PopupCards pour scroll vers cette div */}
         <button type="button" href="#PopupCards">
-          <img src="../public/static/images/arrow.png" alt="scrolldown" />
+          <img src="../assets/images/arrow.png" alt="scrolldown" />
         </button>
       </Link>
     </div> 
