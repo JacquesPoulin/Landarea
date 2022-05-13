@@ -1,5 +1,5 @@
-import propTypes from "prop-types";
 import React from "react";
+import propTypes from "prop-types";
 
 const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
   const newCityArray = [];
@@ -27,7 +27,6 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
           >
             <option
               value=""
-
               className="text-black
             text-center rounded-md cursor-pointer outline-none active:outline-none focus:outline-none bp2:xs"
             >
@@ -47,7 +46,7 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
       <div className="flex justify-center">
         <button type="button" onClick={() => setIsFilter(true)}>
           <img
-            src="../../assets/images/arrow-down-filter.svg"
+            src="../../public/static/logo/arrow-down-filter.svg"
             alt="Flèche du bas"
             className="w-10 h-10 mt-4 mr-10"
           />
@@ -55,7 +54,7 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
         <br />
         <button type="button" onClick={() => setIsFilter(false)}>
           <img
-            src="../../assets/images/arrow-up-filter.svg"
+            src="../../public/static/logo/arrow-up-filter.svg"
             alt="Flèche du haut"
             className="w-10 h-10 mt-4"
           />

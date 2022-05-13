@@ -1,10 +1,17 @@
-import React, {isDark, useState, useEffect } from "react";
+import React from "react";
+import propTypes from "prop-types";
 
 // on crée les cartes sections de la page Store
-const PopupCards = ({ title, description, url, isDark}) => {
+const PopupCards = ({ title, description, url, isDark }) => {
   return (
     <div id="PopupCards">
-      <h1 className={isDark?`m-5 mt-10 mb-2 text-xl text-center font-primary text-slate-900`:`m-5 mt-10 mb-2 text-xl text-center font-primary text-green-600`}>
+      <h1
+        className={
+          isDark
+            ? `m-5 mt-10 mb-2 text-xl text-center font-primary text-slate-900`
+            : `m-5 mt-10 mb-2 text-xl text-center font-primary text-green-600`
+        }
+      >
         #{title}
       </h1>
       <div className="relative mb-5">
@@ -15,6 +22,13 @@ const PopupCards = ({ title, description, url, isDark}) => {
       </div>
     </div>
   );
+};
+
+PopupCards.propTypes = {
+  isDark: propTypes.bool.isRequired,
+  title: propTypes.string.isRequired,
+  description: propTypes.string.isRequired,
+  url: propTypes.string.isRequired,
 };
 
 export default PopupCards;

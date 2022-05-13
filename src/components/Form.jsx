@@ -175,10 +175,8 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                 <select
                   {...register("plantCare")}
                   id="plantCare"
-
                   required
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
-
                 >
                   <option value="">Séléctionnez</option>
                   <option value="Intérieur">plante d'intérieur</option>
@@ -201,10 +199,8 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   type="date"
                   placeholder="JJ/MM/AAAA"
                   autoComplete="withdrawalLimit"
-
                   required
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
-
                 />
               </div>
             </div>
@@ -219,10 +215,9 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
               {choice && (
                 <div className="flex justify-center mt-5">
                   <div className="flex flex-col w-full text-center bg-green-700  p-6 text-lg text-white">
-                    Merci d'avoir déposé
+                    Merci d&apos;avoir déposé
                     <span className="justify-center">votre anonce</span>
                   </div>
-
                 </div>
               )}
               {modalOn && (

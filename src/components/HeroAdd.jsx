@@ -29,4 +29,8 @@ const HeroAdd = ({ isDark }) => {
   );
 };
 
+HeroAdd.propTypes = {
+  isDark: propTypes.bool.isRequired,
+};
+
 export default HeroAdd;
