@@ -5,7 +5,7 @@ const plants2 = [
       url: "https://j8z7y3e9.rocketcdn.me/wp-content/uploads/2020/07/lexique-cannabis.jpg",
       adress: "45 rue du code",
       city: "Anglet",
-      place: "Jahland",
+      place: "Bob",
   
       price: 4,
   
@@ -20,7 +20,7 @@ const plants2 = [
       url: "https://i.insider.com/5f98592c861cb70019936b75?width=750&format=jpeg&auto=webp",
       adress: "45 rue du wild",
       city: "Biarritz",
-      place: "Cocamarché",
+      place: "Pablo",
   
       price: 2,
   
@@ -50,7 +50,7 @@ const plants2 = [
       url: "https://jardinage.lemonde.fr/images/dossiers/2018-09/lophophora-174334.jpg",
       adress: "26 rue de la royauté",
       city: "Urt",
-      place: "Peyolt des potes",
+      place: "Peyote des potes",
   
       price: 5,
   
@@ -85,7 +85,7 @@ const plants2 = [
       price: 7,
   
       color: "Vert",
-      plantCare: "extérieur",
+      plantCare: "Extérieur",
       withdrawalLimit: "24/O5/2022",
     },
   
@@ -100,7 +100,7 @@ const plants2 = [
       price: 2,
   
       color: "Blanc",
-      plantCare: "intérieur",
+      plantCare: "Intérieur",
       withdrawalLimit: "17/05/2022",
     },
   
@@ -115,7 +115,7 @@ const plants2 = [
       price: 9,
   
       color: "Marron",
-      plantCare: "extérieur",
+      plantCare: "Extérieur",
       withdrawalLimit: "23/05/2022",
     },
   
@@ -130,7 +130,7 @@ const plants2 = [
       price: 1,
   
       color: "Vert",
-      plantCare: "extérieur",
+      plantCare: "Extérieur",
       withdrawalLimit: "26/05/2022",
     },
   
@@ -145,7 +145,7 @@ const plants2 = [
       price: 3,
   
       color: "Vert",
-      plantCare: "extérieur",
+      plantCare: "Extérieur",
       withdrawalLimit: "29/05/2022",
     },
   
@@ -185,7 +185,7 @@ const plants2 = [
       url: "https://opentext.wsu.edu/biopsychological-effects-alcohol-drugs/wp-content/uploads/sites/155/2021/01/10.1.1-The-GABA-Receptor-1.jpg",
       adress: "1 rue de Javascript",
       city: "Hendaye",
-      place: "Don't do that brooo",
+      place: "No no José no se bueno",
   
       price: 0.1,
   
@@ -220,7 +220,7 @@ const plants2 = [
       price: 3,
   
       color: "Jaune",
-      plantCare: "intérieur",
+      plantCare: "Intérieur",
       withdrawalLimit: "29/05/2022",
     },
   
@@ -260,7 +260,7 @@ const plants2 = [
       url: "https://weedseedshop.com/blog/wp-content/uploads/The-Kratom-Bible-WeedSeedShop-3.jpg",
       adress: "98 rue Playa",
       city: "Boucau",
-      place: "Belles Plantes",
+      place: "Belles Planantes",
   
       price: 14,
   
@@ -335,7 +335,7 @@ const plants2 = [
       url: "https://www.legacyhealing.com/wp-content/uploads/2019/09/angel-dust-side-effects.jpg",
       adress: "98 rue Playa",
       city: "Boucau",
-      place: "Belles Experiences",
+      place: "No no José no se bueno",
   
       price: 1.5,
   
@@ -365,7 +365,7 @@ const plants2 = [
       url: "https://cdn.cnn.com/cnnnext/dam/assets/150526140618-flakka-drug.jpg",
       adress: "17 rue de Tailwind",
       city: "Ondres",
-      place: "Une Fois",
+      place: "No no José no se bueno",
   
       price: 2.5,
   
@@ -375,5 +375,5 @@ const plants2 = [
     },
   ];
   
-  export default plants;
+  export default plants2;
   
