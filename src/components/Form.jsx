@@ -22,49 +22,49 @@ setNewPlants(temp);
             <div>
               <label htmlFor="Plants name" className="block text-sm font-primary text-gray-700 ">Nom de la Fleur</label>
               <div className="mt-1">
-                <input {...register("name")} name="name" type="text" autoComplete="name" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-x-blue-400 focus:ring focus:ring-blue-400" />
+                <input {...register("name")} name="name" type="text" autoComplete="name" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-x-green-700 focus:ring focus:ring-green-700" />
               </div>
             </div>
             <div>
               <label htmlFor="url" className="block text-sm font-primary text-gray-700 ">Url de l'Image </label>
               <div className="mt-1">
-                <input {...register("url")} name="url" type="text" src="" autoComplete="url" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-400" />
+                <input {...register("url")} name="url" type="text" src="" autoComplete="url" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700" />
               </div>
             </div>
             <div>
               <label htmlFor="adress" className="block text-sm font-primary text-gray-700 ">Adresse </label>
               <div className="mt-1">
-                <input {...register("adress")} name="adress" type="text" autoComplete="adress" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-400" />
+                <input {...register("adress")} name="adress" type="text" autoComplete="adress" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700" />
               </div>
             </div>
             <div>
               <label htmlFor="city" className="block text-sm font-primary text-gray-700 ">Ville </label>
               <div className="mt-1">
-                <input {...register("city")} name="city" type="text" autoComplete="city" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-400" />
+                <input {...register("city")} name="city" type="text" autoComplete="city" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700" />
               </div>
             </div>
             <div>
               <label htmlFor="place" className="block text-sm font-primary text-gray-700 ">Lieu </label>
               <div className="mt-1">
-                <input {...register("place")} name="place" type="text" autoComplete="place" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-300" />
+                <input {...register("place")} name="place" type="text" autoComplete="place" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700" />
               </div>
             </div>
             <div>
               <label htmlFor="price" className="block text-sm font-primary text-gray-700 ">Prix </label>
               <div className="mt-1">
-                <input {...register("price")} name="price" type="number" autoComplete="price" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-400" />
+                <input {...register("price")} name="price" type="number" autoComplete="price" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700" />
               </div>
             </div>
             <div>
               <label htmlFor="color" className="block text-sm font-primary text-gray-700 ">Couleur </label>
               <div className="mt-1">
-                <input {...register("color")} name="color" type="text" autoComplete="color" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-400" />
+                <input {...register("color")} name="color" type="text" autoComplete="color" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700" />
               </div>
             </div>
             <div>
               <label htmlFor="plantCare" className="block text-sm font-primary text-gray-700 ">Entretien</label>
               <div className="mt-1">
-                <select {...register("plantCare")} id="plantCare" className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-400">
+                <select {...register("plantCare")} id="plantCare" className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700">
                   <option value="">Séléctionnez</option>
                   <option value="Intérieur">plante d'intérieur</option>
                   <option value="Extérieur">plante d'éxterieur</option>
@@ -75,11 +75,11 @@ setNewPlants(temp);
             <div>
               <label htmlFor="withdrawalLimit" className="block text-sm font-primary text-gray-700 ">Date limite de retrait </label>
               <div className="mt-1">
-                <input {...register("withdrawalLimit")} name="withdrawalLimit" type="text" autoComplete="withdrawalLimit" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-blue-400 focus:ring focus:ring-blue-400" />
+                <input {...register("withdrawalLimit")} name="withdrawalLimit" type="text" autoComplete="withdrawalLimit" required className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700" />
               </div>
             </div>
             <div>
-              <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-400 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400">Valider</button>
+              <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-700 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700">Valider</button>
             </div>
           </form>
         </div>
