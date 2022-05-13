@@ -16,7 +16,7 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
           htmlFor="city"
           className={
             !isDark
-              ? `font-medium flex flex-col justify-center`
+              ? `font-medium flex flex-col justify-center bp2:text-3xl`
               : `font-medium flex flex-col justify-center text-green-600`
           }
         >
