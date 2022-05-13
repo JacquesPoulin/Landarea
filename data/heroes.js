@@ -20,7 +20,7 @@ const heroes = [
     id: 3,
     name: "POPUP",
     title: "Rencontrons nous !",
-    txt: "Venez visiter notre lieu vie, pour se rencontrer, échanger et partager nos idées et notre jus ;-)",
+    txt: "Venez visiter notre lieu vie, pour se rencontrer, échanger et partager nos idées et notre jus",
     img: "../assets/images/heroes3.jpg",
     link: "",
   },

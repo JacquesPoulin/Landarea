@@ -4,16 +4,12 @@ import React from "react";
 const PopupCards = ({ title, description, url }) => {
   return (
     <div id="PopupCards">
-      <h1 className="m-5 mt-10 mb-10 text-4xl text-center font-primary">
-        {title}
+      <h1 className="m-5 mt-10 mb-2 text-xl text-center font-primary">
+        #{title}
       </h1>
       <div className="relative mb-5">
-        <img
-          src={url}
-          alt="Brugmansia suaveolens Tricolor"
-          className="object-cover w-full h-96 rounded-xl"
-        />
-        <h2 className="absolute bottom-0 justify-center w-screen mb-10 text-center opacity-70 bg-slate-300">
+        <img src={url} alt={title} className="object-cover w-full h-[70vh]" />
+        <h2 className="absolute bottom-0 justify-center w-screen py-4 text-center opacity-70 bg-slate-50/80 font-second px-4">
           {description}
         </h2>
       </div>
