@@ -7,7 +7,6 @@ const Form = ({newPlants, setNewPlants, isDark}) => {
   const [choice, setChoice]= useState(false);
   const { register, handleSubmit } = useForm();
   const temp = [...newPlants];
-  // console.log(temp);
   const push = (data) => {
 temp.unshift(data);
 setNewPlants(temp);
@@ -19,7 +18,7 @@ setNewPlants(temp);
         AJOUTEZ VOTRE ANNONCE
       </h1>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
-        <div className="bg-white py-8 px-6 shadow rounded-lg sm:px-10">
+        <div className="px-6 py-8 bg-white rounded-lg shadow sm:px-10">
           <form
             onSubmit={handleSubmit((data) => push(data))}
             className="mb-0 space-y-6"
@@ -27,7 +26,7 @@ setNewPlants(temp);
             <div>
               <label
                 htmlFor="Plants name"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Nom de la Fleur
               </label>
@@ -39,14 +38,14 @@ setNewPlants(temp);
                   autoComplete="name"
                   required
                   placeholder="fleur"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-x-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-x-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="url"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Url de l'Image
               </label>
@@ -59,14 +58,14 @@ setNewPlants(temp);
                   autoComplete="url"
                   required
                   placeholder="https://"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="adress"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Adresse{" "}
               </label>
@@ -78,14 +77,14 @@ setNewPlants(temp);
                   autoComplete="adress"
                   required
                   placeholder="1 rue de la belle plante"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="city"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Ville{" "}
               </label>
@@ -97,14 +96,14 @@ setNewPlants(temp);
                   autoComplete="city"
                   required
                   placeholder="Biarritz"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="place"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Lieu{" "}
               </label>
@@ -116,14 +115,14 @@ setNewPlants(temp);
                   autoComplete="place"
                   required
                   placeholder="chez moi"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="price"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Prix{" "}
               </label>
@@ -135,14 +134,14 @@ setNewPlants(temp);
                   autoComplete="price"
                   required
                   placeholder="1"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="color"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Couleur{" "}
               </label>
@@ -154,14 +153,14 @@ setNewPlants(temp);
                   autoComplete="color"
                   required
                   placeholder="rose"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="plantCare"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Entretien
               </label>
@@ -169,8 +168,10 @@ setNewPlants(temp);
                 <select
                   {...register("plantCare")}
                   id="plantCare"
+
                   required
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+
                 >
                   <option value="">Séléctionnez</option>
                   <option value="Intérieur">plante d'intérieur</option>
@@ -182,7 +183,7 @@ setNewPlants(temp);
             <div>
               <label
                 htmlFor="withdrawalLimit"
-                className="block text-sm font-primary text-gray-700 "
+                className="block text-sm text-gray-700 font-primary "
               >
                 Date limite de retrait{" "}
               </label>
@@ -195,18 +196,20 @@ setNewPlants(temp);
                   autoComplete="withdrawalLimit"
 
 
+
                   required
 
 
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+
                 />
               </div>
             </div>
             <div>
-              <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-700 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 " onClick={()=>setModalOn(true)}>Valider</button>
+              <button type="submit" className="flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-green-700 border border-transparent rounded-md shadow-sm hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 " onClick={()=>setModalOn(true)}>Valider</button>
               {choice &&
                   <div className="flex justify-center mt-5">
-                  <div className="flex flex-col w-full text-center bg-green-700  p-6 text-lg text-white">Merci d'avoir déposé 
+                  <div className="flex flex-col w-full p-6 text-lg text-center text-white bg-green-700">Merci d'avoir déposé 
                   <span className="justify-center">votre anonce</span></div>
                 </div>
               }

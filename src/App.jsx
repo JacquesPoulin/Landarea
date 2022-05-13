@@ -68,7 +68,9 @@ function App() {
         </Routes>
         <Footer />
       </HashRouter>
+      {console.log("Nous nous somme amussez à insérer un black market dans notre site .... amusez vous bien ;) ")}
     </div>
+    
   );
 }
 
