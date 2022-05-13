@@ -16,7 +16,7 @@ const plants2 = [
   
     {
       id: 2,
-      name: "Cocaine de Colombie",
+      name: "Coca (Erythroxylum coca)",
       url: "https://i.insider.com/5f98592c861cb70019936b75?width=750&format=jpeg&auto=webp",
       adress: "45 rue du wild",
       city: "Biarritz",
@@ -151,26 +151,26 @@ const plants2 = [
   
     {
       id: 11,
-      name: "Nymphoides peltata",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/89517-01-BAKIE_97efc3c9-b16d-4af4-a70a-cef7ffa66b91_823x.jpg?v=1652229253",
+      name: "Jimsonweed (Datura stramonium)",
+      url: "https://previews.agefotostock.com/previewimage/medibigoff/0649b56794acaf761ccb2b6b38130bf2/zon-7648881.jpg",
       adress: "33 rue du Roi",
       city: "Bidart",
-      place: "Jardiland",
+      place: "Weedland",
   
       price: 0.5,
   
-      color: "Jaune",
+      color: "Vert",
       plantCare: "Bassin",
       withdrawalLimit: "12/O6/2022",
     },
   
     {
       id: 12,
-      name: "Iris kaempferi",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/44024-01-BAKIE_d620744e-48b2-46ba-a879-7fcfb26f62f2_823x.jpg?v=1652231111",
+      name: "vigne plants (Vitis vinifera)",
+      url: "https://static.aujardin.info/cache/th/img9/vitis-vinifera-600x450.jpg",
       adress: "1 rue de Javascript",
       city: "Hendaye",
-      place: "Planta la plante",
+      place: "Planto la planta",
   
       price: 0.2,
   
@@ -181,41 +181,41 @@ const plants2 = [
   
     {
       id: 13,
-      name: "Iris versicolor",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/92812-06-BAKIE_823x.jpg?v=1641879879",
+      name: "Central Nervous System Depressants (Benzos)",
+      url: "https://opentext.wsu.edu/biopsychological-effects-alcohol-drugs/wp-content/uploads/sites/155/2021/01/10.1.1-The-GABA-Receptor-1.jpg",
       adress: "1 rue de Javascript",
       city: "Hendaye",
-      place: "Planta la plante",
+      place: "Don't do that brooo",
   
       price: 0.1,
   
-      color: "Bleu-Violet",
-      plantCare: "Bassin",
+      color: "Kaki",
+      plantCare: "Kaka",
       withdrawalLimit: "23/06/2022",
     },
   
     {
       id: 14,
-      name: "Typha minima",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/89513-06-BAKIE_6b450995-2d06-41f0-84a0-de9c2d6d3336_823x.jpg?v=1652230230",
+      name: "GHB",
+      url: "https://cdn.radiofrance.fr/s3/cruiser-production/2022/04/d0322de4-5765-40c4-b038-9a09a33ca32c/1136_maxstockworld430528.jpg",
       adress: "26 rue de la royauté",
       city: "Urt",
-      place: "Plante des Fleurs",
+      place: "Plante des Violeurs",
   
       price: 1,
   
-      color: "Marron",
-      plantCare: "Bassin",
+      color: "Blanc",
+      plantCare: "Liquide",
       withdrawalLimit: "20/05/2022",
     },
   
     {
       id: 15,
       name: "Zantedeschia 'Summer Sun",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/59294-00-BAKIE_16835071-0692-4698-b1c1-0f9ee01ef8b7_823x.jpg?v=1652230730",
+      url: "https://www.zamnesia.fr/2045-4301-thickbox/hawaiian-supa-gro.jpg",
       adress: "6 rue de la code school",
       city: "Anglet",
-      place: "L'idée plante",
+      place: "L'idée planante",
   
       price: 3,
   
@@ -226,38 +226,38 @@ const plants2 = [
   
     {
       id: 16,
-      name: "Dypsis lutescens",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/55287-06-BAKIE_32db5818-e7b8-4ebe-8e6c-3105f765f86b_823x.jpg?v=1652231184",
+      name: "Ketamine (Spravato)",
+      url: "https://media.dumpert.nl/dmp/media/image/c/3/8/c385c045-b0ea-21c6-ca2d-40a73c4a0e43/image.jpg",
       adress: "6 rue du petit bayonne",
       city: "Tarnos",
-      place: "Aux Plantes",
+      place: "Viva la Keta",
   
       price: 12,
   
-      color: "Vert",
+      color: "Blanc",
       plantCare: "Intérieur",
       withdrawalLimit: "04/O6/2022",
     },
   
     {
       id: 17,
-      name: "Alocasia macrorrhizos",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/44699-06-BAKIE_905f290f-337e-44e2-84a9-448eee77cda0_823x.jpg?v=1652231810",
+      name: "Khat",
+      url: "https://st3.depositphotos.com/4236463/31713/i/600/depositphotos_317130794-stock-photo-fresh-leaves-of-a-khat.jpg",
       adress: "45 rue du wild",
       city: "Biarritz",
-      place: "Bricomarché",
+      place: "Toxicomarché",
   
       price: 5,
   
       color: "Vert",
-      plantCare: "Intérieur",
+      plantCare: "Extérieur",
       withdrawalLimit: "25/05/2022",
     },
   
     {
       id: 18,
-      name: "Strelitzia nicolai",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/64038-09-BAKIE_adccb0a3-b823-49cf-8117-7fcd91d77992_823x.jpg?v=1652231934",
+      name: "Kratom",
+      url: "https://weedseedshop.com/blog/wp-content/uploads/The-Kratom-Bible-WeedSeedShop-3.jpg",
       adress: "98 rue Playa",
       city: "Boucau",
       place: "Belles Plantes",
@@ -271,56 +271,56 @@ const plants2 = [
   
     {
       id: 19,
-      name: "Schefflera luseana",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/66195-02-BAKIE_e643eeb2-75f6-47d7-81a3-618ce9305866_823x.jpg?v=1652232206",
+      name: "LSD (Acid)",
+      url: "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000xAny/9/1/9/132919_Pink_Elephants_on_Parade_Blotter_LSD_Dumbo.jpg",
       adress: "26 rue de la royauté",
       city: "Urt",
-      place: "Plante des Fleurs",
+      place: "Alice in Wonderland",
   
       price: 8,
   
-      color: "Vert",
-      plantCare: "Intérieur",
+      color: "Multicolor",
+      plantCare: "Cosmos",
       withdrawalLimit: "16/06/2022",
     },
   
     {
       id: 20,
-      name: "Ficus benghalensis 'Audrey'",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/66193-02-BAKIE_7beca4a0-3fc4-4715-9d93-2dea1c563e15_823x.jpg?v=1652232206",
+      name: "MDMA (Ecstasy/Molly)",
+      url: "https://cdn.cnn.com/cnnnext/dam/assets/120809060248-ecstasy-molly-mdma-drugs.jpg",
       adress: "6 rue de la code school",
       city: "Anglet",
-      place: "L'idée plante",
+      place: "L'idée planante",
   
       price: 18,
   
-      color: "Vert",
-      plantCare: "Intérieur",
+      color: "Multicolor",
+      plantCare: "Extérieur",
       withdrawalLimit: "30/06/2022",
     },
   
     {
       id: 21,
-      name: "Tillandsia ionantha",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/40681-00-BAKIE_196160ba-1b63-41a0-87f6-46a45e75eafd_823x.jpg?v=1652229811",
+      name: "Methamphetamine (Crystal/Meth)",
+      url: "https://www.verywellhealth.com/thmb/yZHqrpL3vFR8f3ITNEsgcToQ_Gg=/3797x2848/smart/filters:no_upscale()/methamphetamine-also-known-as-crystal-meth-513476400-2ef1c361fcee44b585a68facc488f0be.jpg",
       adress: "6 rue du petit bayonne",
       city: "Tarnos",
-      place: "Aux Plantes",
+      place: "Aux Planantes",
   
       price: 1,
   
-      color: "Rouge",
+      color: "Blanc",
       plantCare: "Intérieur",
       withdrawalLimit: "04/O6/2022",
     },
   
     {
       id: 22,
-      name: "Érable artificiel rouge",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/46492-02-BAKIE_b2bfcfaf-3ed7-4806-9a36-d086b3ad6a18.jpg?v=1652229984",
+      name: "Dextromethorphan (DXM)",
+      url: "https://www.sbhservices.org/sites/default/files/drugfreeazkids/uploads/cmDXM.png",
       adress: "45 rue du wild",
       city: "Biarritz",
-      place: "Bricomarché",
+      place: "Toxicomarché",
   
       price: 30,
   
@@ -331,11 +331,11 @@ const plants2 = [
   
     {
       id: 23,
-      name: "Peperomia santorini",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/55130-00-BAKIE_ee0482ff-95a6-47bc-9b80-337dce542b76_823x.jpg?v=1652231190",
+      name: "PCP (Angel Dust)",
+      url: "https://www.legacyhealing.com/wp-content/uploads/2019/09/angel-dust-side-effects.jpg",
       adress: "98 rue Playa",
       city: "Boucau",
-      place: "Belles Plantes",
+      place: "Belles Experiences",
   
       price: 1.5,
   
@@ -346,8 +346,8 @@ const plants2 = [
   
     {
       id: 24,
-      name: "Tillandsia xeragraphica",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/65324-01-BAKIE_7d80c56a-86f5-4c20-b275-b11ce7b111bf_823x.jpg?v=1652232146",
+      name: "Psilocybin (Magic Mushrooms/Shrooms)",
+      url: "https://i.guim.co.uk/img/media/f73b9d7a268199e4001725b309ac33a74a17afc9/0_73_4683_2810/master/4683.jpg?width=1200&quality=85&auto=format&fit=max&s=d578569b005a7f1ec42852ffa3961a8f",
       adress: "26 rue de la reinerie",
       city: "Urcuit",
       place: "La main verte",
@@ -355,21 +355,21 @@ const plants2 = [
       price: 6,
   
       color: "Gris",
-      plantCare: "Intérieur",
+      plantCare: "Extérieur",
       withdrawalLimit: "25/06/2022",
     },
   
     {
       id: 25,
-      name: "Gymnocalycium mihanovichii",
-      url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/55821-00-BAKIE_610a45ed-28f1-453e-b4c2-1b4a73e710c3_823x.jpg?v=1652231213",
+      name: "Synthetic Cathinones (Bath Salts/Flakka)",
+      url: "https://cdn.cnn.com/cnnnext/dam/assets/150526140618-flakka-drug.jpg",
       adress: "17 rue de Tailwind",
       city: "Ondres",
-      place: "Une Fleur",
+      place: "Une Fois",
   
       price: 2.5,
   
-      color: "Tricolor",
+      color: "Blanc",
       plantCare: "Intérieur",
       withdrawalLimit: "21/06/2022",
     },
