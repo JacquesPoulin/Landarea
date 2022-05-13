@@ -1,4 +1,5 @@
 const plants2 = [
+
     {
       id: 1,
       name: "Cannabis (Cannabis sativa)",
@@ -376,4 +377,4 @@ const plants2 = [
   ];
   
   export default plants2;
-  
+

@@ -15,7 +15,7 @@ const Footer = () => {
         />
         <div className="w-2/3 h-[1px] p-0 bg-creamy m-0" />
       </div>
-      <div className="flex flex-col justify-center items-center bg-greeny/80 py-7">
+      <div className="flex flex-col justify-center items-center bg-greeny/80 pt-7">
         <h2 className="font-regular mb-4 text-white"> Ils nous soutiennent</h2>
         <div className="flex flex-wrap justify-around gap-12 m-5">
           {/* <img src="../assets/images/nasa.svg" alt="nasa" width="50" /> */}
@@ -32,9 +32,9 @@ const Footer = () => {
 
           <img src="../assets/images/wcs.png" alt="wcs" width="160" />
         </div>
-        <div className="flex flex-col flex-wrap justify-center items-center bg-greeny py-3 font-regular w-full">
-          <h2 className="text-white py-2">Retrouvez-nous sur les réseaux </h2>
-          <div className="flex flex-row justify-around w-1/3">
+        <div className="flex flex-col flex-wrap items-center bg-greeny py-8 font-regular w-full">
+          <h2 className="text-white pb-3">Retrouvez-nous sur les réseaux </h2>
+          <div className="flex flex-row justify-between bp1:justify-around w-1/2">
             <img
               src="../assets/images/instagram.svg"
               alt="instagram"
@@ -48,6 +48,9 @@ const Footer = () => {
             />
           </div>
         </div>
+        <h2 className="font-second text-xs text-white text-center py-2 w-3/4">
+          Made with 🤍 and 😈 <br /> by Antso, Johnny, Damien, Jacques et Rémi{" "}
+        </h2>
       </div>
     </div>
   );
