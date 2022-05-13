@@ -29,7 +29,7 @@ const Filter = ({ setCityChoice, setIsFilter }) => {
             </option>
             {data &&
               data
-                // .filter((plant)=>(plant.city))
+                
                 .sort((a, b) => (a.city > b.city ? 1 : -1))
                 .map((plant) => (
                   <option key={plant.id} value={plant.city}>
