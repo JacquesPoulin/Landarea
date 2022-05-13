@@ -193,11 +193,11 @@ setNewPlants(temp);
                   type="date"
                   placeholder="JJ/MM/AAAA"
                   autoComplete="withdrawalLimit"
-<<<<<<< HEAD
+
+
                   required
-=======
-                  required                  
->>>>>>> 8c56e7e62d0dda6c43435c4709051a5437b4bddf
+
+
                   className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
