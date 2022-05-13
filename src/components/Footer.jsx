@@ -6,7 +6,10 @@ const Footer = () => {
   return (
     <div>
       <div className="flex flex-col justify-center items-center bg-greeny py-3 font-regular w-full">
-        <label className="text-white"> Contactez-nous</label>
+        <label htmlFor="contact" className="text-white">
+          {" "}
+          Contactez-nous
+        </label>
         <input
           type="text"
           value={email}

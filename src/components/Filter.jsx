@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import propTypes from "prop-types";
 import React from "react";
 
 const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
@@ -17,18 +17,18 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
           className={
             !isDark
               ? `font-medium flex flex-col justify-center bp2:text-3xl`
-              : `font-medium flex flex-col justify-center text-green-600`
+              : `font-medium flex flex-col justify-center text-green  -600 bp2:text-2xl`
           }
         >
           Choisisez votre ville{" "}
           <select
-            className="rounded font-main text-center m-auto mt-4 mb-4 border-b-4 border-green-800 cursor-pointer"
+            className="rounded font-main text-center m-auto mt-6 mb-5 border-b-4 border-green-800 cursor-pointer"
             onChange={(e) => setCityChoice(e.target.value)}
           >
             <option
               value=""
               className="text-black
-            text-center rounded-md cursor-pointer outline-none active:outline-none focus:outline-none"
+            text-center rounded-md cursor-pointer outline-none active:outline-none focus:outline-none bp2:xs"
             >
               Toutes
             </option>
@@ -64,4 +64,10 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
   );
 };
 
+Filter.propTypes = {
+  setCityChoice: propTypes.func.isRequired,
+  setIsFilter: propTypes.isRequired,
+  isDark: propTypes.bool.isRequired,
+  newPlants: propTypes.object.isRequired,
+};
 export default Filter;

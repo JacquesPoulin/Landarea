@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-// on crée le button pour scroll down la page Store
+// >> on crée le button du scroll down la page Store
 const Button = () => {
   return (
     <div className=" self-center w-8 bp1:mt-[10vh]">
@@ -14,7 +14,7 @@ const Button = () => {
       >
         {/* on utilise l'id de la div #PopupCards pour scroll vers cette div */}
         <button type="button" href="#PopupCards">
-          <img src="../assets/images/arrow.png" alt="scrolldown" />
+          <img src="../assets/images/arrow.png" alt="scrolldown" className="" />
         </button>
       </Link>
     </div>

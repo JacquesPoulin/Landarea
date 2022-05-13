@@ -18,6 +18,7 @@ const Modale = ({ setModalOn, setChoice }) => {
             <span className="mt-4">Confirmez ?</span>
             <div className="flex w-full justify-between mt-3 ">
               <button
+                type="button"
                 onClick={handleOkClick}
                 className=" rounded px-4 py-2 mr-4 text-white bg-green-700"
               >
@@ -25,6 +26,7 @@ const Modale = ({ setModalOn, setChoice }) => {
                 Oui
               </button>
               <button
+                type="button"
                 onClick={handleCancelClick}
                 className=" rounded px-4 py-2 text-white bg-green-700"
               >
