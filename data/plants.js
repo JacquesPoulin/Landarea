@@ -121,7 +121,7 @@ const plants = [
 
   {
     id: 9,
-    name: "Spathiphyllum wallisii 'Pearl Cupido",
+    name: "Spathiphyllum wallisii 'Pearl Cupido'",
     url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/41992-05-BAKIE_4f4e2c3c-3d9c-4d01-8956-a29e53b46e67_823x.jpg?v=1652232007",
     adress: "26 rue de la royauté",
     city: "Urt",
@@ -136,7 +136,7 @@ const plants = [
 
   {
     id: 10,
-    name: "Zantedeschia 'Summer Sun",
+    name: "Zantedeschia 'Summer Sun'",
     url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/59294-00-BAKIE_16835071-0692-4698-b1c1-0f9ee01ef8b7_823x.jpg?v=1652230730",
     adress: "6 rue de la code school",
     city: "Anglet",
@@ -211,7 +211,7 @@ const plants = [
 
   {
     id: 15,
-    name: "Zantedeschia 'Summer Sun",
+    name: "Zantedeschia 'Summer Sun'",
     url: "https://cdn.shopify.com/s/files/1/0109/7079/1998/products/59294-00-BAKIE_16835071-0692-4698-b1c1-0f9ee01ef8b7_823x.jpg?v=1652230730",
     adress: "6 rue de la code school",
     city: "Anglet",
