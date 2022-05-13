@@ -1,10 +1,10 @@
-import React from "react";
+import React, {isDark, useState, useEffect } from "react";
 
 // on crée les cartes sections de la page Store
-const PopupCards = ({ title, description, url }) => {
+const PopupCards = ({ title, description, url, isDark}) => {
   return (
     <div id="PopupCards">
-      <h1 className="m-5 mt-10 mb-2 text-xl text-center font-primary">
+      <h1 className={isDark?`m-5 mt-10 mb-2 text-xl text-center font-primary text-slate-900`:`m-5 mt-10 mb-2 text-xl text-center font-primary text-green-600`}>
         #{title}
       </h1>
       <div className="relative mb-5">

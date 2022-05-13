@@ -1,23 +1,21 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import plants from "../../data/plants";
 
-const Filter = ({ setCityChoice, setIsFilter }) => {
-  const [data, setData] = React.useState(plants);
-  React.useEffect(() => {
-    const newArray = [];
-    data.map(
-      (plant) =>
-        newArray.findIndex((p) => p.city == plant.city) === -1 &&
-        newArray.push(plant)
-    );
-    setData(newArray);
-  }, []);
+const Filter = ({ setCityChoice, setIsFilter,isDark }) => {
+  const newCityArray = [];
+
+  plants.map(
+    (plant) =>
+      !newCityArray.includes(plant.city) && newCityArray.push(plant.city)
+  );
+
   return (
     <div className="m-6 text-center font-main">
       <div className="flex flex-col justify-center">
         <label
           htmlFor="city"
-          className="flex flex-col justify-center font-medium"
+          className={!isDark?`font-medium flex flex-col justify-center`:`font-medium flex flex-col justify-center text-green-600`}
         >
           Choisisez votre ville{" "}
           <select
@@ -27,15 +25,14 @@ const Filter = ({ setCityChoice, setIsFilter }) => {
             <option value="" className="text-center text-black rounded-md">
               Toutes
             </option>
-            {data &&
-              data
-                
-                .sort((a, b) => (a.city > b.city ? 1 : -1))
-                .map((plant) => (
-                  <option key={plant.id} value={plant.city}>
-                    {plant.city}
-                  </option>
-                ))}
+
+            {/* Trier et Mapper les villes */}
+            {newCityArray &&
+              newCityArray.sort().map((city, index) => (
+                <option key={index} value={city}>
+                  {city}
+                </option>
+              ))}
           </select>
         </label>
       </div>
