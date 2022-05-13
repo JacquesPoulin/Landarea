@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useForm, useController, useFormState } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import Modale from "./Modale";
 
 const Form = ({newPlants, setNewPlants, isDark}) => {
@@ -36,7 +36,7 @@ setNewPlants(temp);
                   name="name"
                   type="text"
                   autoComplete="name"
-                  required="required"
+                  required
                   placeholder="fleur"
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-x-green-700 focus:ring focus:ring-green-700"
                 />
@@ -56,7 +56,7 @@ setNewPlants(temp);
                   type="url" 
                   src=""
                   autoComplete="url"
-                  required="required"
+                  required
                   placeholder="https://"
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -75,7 +75,7 @@ setNewPlants(temp);
                   name="adress"
                   type="text"
                   autoComplete="adress"
-                  required="required"
+                  required
                   placeholder="1 rue de la belle plante"
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -94,7 +94,7 @@ setNewPlants(temp);
                   name="city"
                   type="text"
                   autoComplete="city"
-                  required="required"
+                  required
                   placeholder="Biarritz"
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -113,7 +113,7 @@ setNewPlants(temp);
                   name="place"
                   type="text"
                   autoComplete="place"
-                  required="required"
+                  required
                   placeholder="chez moi"
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -132,7 +132,7 @@ setNewPlants(temp);
                   name="price"
                   type="number"
                   autoComplete="price"
-                  required="required"
+                  required
                   placeholder="1"
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -151,7 +151,7 @@ setNewPlants(temp);
                   name="color"
                   type="text"
                   autoComplete="color"
-                  required="required"
+                  required
                   placeholder="rose"
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
@@ -168,8 +168,10 @@ setNewPlants(temp);
                 <select
                   {...register("plantCare")}
                   id="plantCare"
-                  required="required"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
+
+                  required
+                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+
                 >
                   <option value="">Séléctionnez</option>
                   <option value="Intérieur">plante d'intérieur</option>
@@ -192,8 +194,14 @@ setNewPlants(temp);
                   type="date"
                   placeholder="JJ/MM/AAAA"
                   autoComplete="withdrawalLimit"
-                  required="required"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
+
+
+
+                  required
+
+
+                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+
                 />
               </div>
             </div>
