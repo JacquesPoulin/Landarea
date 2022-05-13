@@ -9,6 +9,9 @@
     "lint": "echo '----- Checking Frontend...' && prettier --debug-check . && eslint --ext .jsx . && echo '----- Done!'",
     "fix": "prettier --write . && eslint --fix --ext .jsx ."
   },
+  "resolutions": {
+  "csstype": "3.0.10"
+}
   "dependencies": {
     "@tailwindcss/forms": "^0.5.1",
     "@tailwindui/react": "^0.1.1",
