@@ -7,7 +7,6 @@ const Form = ({newPlants, setNewPlants, isDark}) => {
   const [choice, setChoice]= useState(false);
   const { register, handleSubmit } = useForm();
   const temp = [...newPlants];
-  // console.log(temp);
   const push = (data) => {
 temp.unshift(data);
 setNewPlants(temp);
