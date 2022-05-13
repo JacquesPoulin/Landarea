@@ -1,15 +1,15 @@
 import React from "react";
 
 // on crée les cartes sections de la page Store
-const PopupCards = ({ title, description, url }) => {
+const PopupCards = ({ title, description, url, isDark}) => {
   return (
     <div id="PopupCards">
-      <h1 className="m-5 mt-10 mb-2 text-xl text-center font-primary">
+      <h1 className={isDark?`m-5 mt-10 mb-2 text-xl text-center font-primary`:`m-5 mt-10 mb-2 text-xl text-center font-primary text-green-600`}>
         #{title}
       </h1>
       <div className="relative mb-5">
         <img src={url} alt={title} className="object-cover w-full h-[70vh]" />
-        <h2 className="absolute bottom-0 justify-center w-screen py-4 text-center opacity-70 bg-slate-50/80 font-second px-4">
+        <h2 className="absolute bottom-0 justify-center w-screen py-4 text-center opacity-70 bg-slate-50/100 font-main px-4">
           {description}
         </h2>
       </div>

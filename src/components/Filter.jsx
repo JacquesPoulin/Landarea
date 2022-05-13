@@ -1,13 +1,13 @@
 import React from "react";
 import plants from "../../data/plants";
 
-const Filter = ({ setCityChoice, setIsFilter }) => {
+const Filter = ({ setCityChoice, setIsFilter,isDark }) => {
   return (
     <div className="m-6 text-center font-main">
       <div className="flex flex-col justify-center">
         <label
           htmlFor="city"
-          className="font-medium flex flex-col justify-center"
+          className={isDark?`font-medium flex flex-col justify-center`:`font-medium flex flex-col justify-center text-green-600`}
         >
           Choisisez votre ville{" "}
           <select
