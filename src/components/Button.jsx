@@ -5,13 +5,19 @@ import { Link } from "react-scroll";
 const Button = () => {
   return (
     <div className=" self-center w-8 bp1:mt-[10vh]">
-      <Link activeClass="active" to="PopupCards" duration={1000} delay={200} smooth="true">
+      <Link
+        activeClass="active"
+        to="PopupCards"
+        duration={1000}
+        delay={200}
+        smooth="true"
+      >
         {/* on utilise l'id de la div #PopupCards pour scroll vers cette div */}
         <button type="button" href="#PopupCards">
           <img src="../public/static/images/arrow.png" alt="scrolldown" />
         </button>
       </Link>
-    </div> 
+    </div>
   );
 };
 
