@@ -8,7 +8,7 @@ const plants2 = [
       city: "Anglet",
       place: "Bob",
   
-      price: 4,
+      price: 1,
   
       color: "Vert",
       plantCare: "Extérieur",
@@ -23,7 +23,7 @@ const plants2 = [
       city: "Biarritz",
       place: "Pablo",
   
-      price: 2,
+      price: 20,
   
       color: "Vert",
       plantCare: "Extérieur",
@@ -38,7 +38,7 @@ const plants2 = [
       city: "Bayonne",
       place: "La Sauge pour tous",
   
-      price: 6,
+      price: 4,
   
       color: "Vert",
       plantCare: "Extérieur",
@@ -68,7 +68,7 @@ const plants2 = [
       city: "Anglet",
       place: "L'idée planante",
   
-      price: 5,
+      price: 18,
   
       color: "Rose-Violet",
       plantCare: "Extérieur",
@@ -83,7 +83,7 @@ const plants2 = [
       city: "Anglet",
       place: "Daturland",
   
-      price: 7,
+      price: 3,
   
       color: "Vert",
       plantCare: "Extérieur",
@@ -98,7 +98,7 @@ const plants2 = [
       city: "Biarritz",
       place: "Champimarché",
   
-      price: 2,
+      price: 4,
   
       color: "Blanc",
       plantCare: "Intérieur",
@@ -113,7 +113,7 @@ const plants2 = [
       city: "Bayonne",
       place: "Le rêve pour tous",
   
-      price: 9,
+      price: 5,
   
       color: "Marron",
       plantCare: "Extérieur",
@@ -128,7 +128,7 @@ const plants2 = [
       city: "Urt",
       place: "Palmier des Fleurs",
   
-      price: 1,
+      price: 6,
   
       color: "Vert",
       plantCare: "Extérieur",
@@ -158,7 +158,7 @@ const plants2 = [
       city: "Bidart",
       place: "Weedland",
   
-      price: 0.5,
+      price: 5,
   
       color: "Vert",
       plantCare: "Bassin",
@@ -173,7 +173,7 @@ const plants2 = [
       city: "Hendaye",
       place: "Planto la planta",
   
-      price: 0.2,
+      price: 6,
   
       color: "Violet",
       plantCare: "Bassin",
@@ -188,7 +188,7 @@ const plants2 = [
       city: "Hendaye",
       place: "No no José no se bueno",
   
-      price: 0.1,
+      price: 9,
   
       color: "Kaki",
       plantCare: "Kaka",
@@ -203,7 +203,7 @@ const plants2 = [
       city: "Urt",
       place: "Plante des Violeurs",
   
-      price: 1,
+      price: 11,
   
       color: "Blanc",
       plantCare: "Liquide",
@@ -218,7 +218,7 @@ const plants2 = [
       city: "Anglet",
       place: "L'idée planante",
   
-      price: 3,
+      price: 8,
   
       color: "Jaune",
       plantCare: "Intérieur",
@@ -248,7 +248,7 @@ const plants2 = [
       city: "Biarritz",
       place: "Toxicomarché",
   
-      price: 5,
+      price: 3,
   
       color: "Vert",
       plantCare: "Extérieur",
@@ -263,7 +263,7 @@ const plants2 = [
       city: "Boucau",
       place: "Belles Planantes",
   
-      price: 14,
+      price: 13,
   
       color: "Vert",
       plantCare: "Intérieur",
@@ -293,7 +293,7 @@ const plants2 = [
       city: "Anglet",
       place: "L'idée planante",
   
-      price: 18,
+      price: 9,
   
       color: "Multicolor",
       plantCare: "Extérieur",
@@ -308,7 +308,7 @@ const plants2 = [
       city: "Tarnos",
       place: "Aux Planantes",
   
-      price: 1,
+      price: 11,
   
       color: "Blanc",
       plantCare: "Intérieur",
@@ -323,7 +323,7 @@ const plants2 = [
       city: "Biarritz",
       place: "Toxicomarché",
   
-      price: 30,
+      price: 14,
   
       color: "Rouge",
       plantCare: "Intérieur",
@@ -338,7 +338,7 @@ const plants2 = [
       city: "Boucau",
       place: "No no José no se bueno",
   
-      price: 1.5,
+      price: 15,
   
       color: "Gris",
       plantCare: "Intérieur",
@@ -347,13 +347,13 @@ const plants2 = [
   
     {
       id: 24,
-      name: "Psilocybin (Magic Mushrooms/Shrooms)",
+      name: "Psilocybin (Magicshrooms)",
       url: "https://i.guim.co.uk/img/media/f73b9d7a268199e4001725b309ac33a74a17afc9/0_73_4683_2810/master/4683.jpg?width=1200&quality=85&auto=format&fit=max&s=d578569b005a7f1ec42852ffa3961a8f",
       adress: "26 rue de la reinerie",
       city: "Urcuit",
       place: "La main verte",
   
-      price: 6,
+      price: 2,
   
       color: "Gris",
       plantCare: "Extérieur",
@@ -368,7 +368,7 @@ const plants2 = [
       city: "Ondres",
       place: "No no José no se bueno",
   
-      price: 2.5,
+      price: 10,
   
       color: "Blanc",
       plantCare: "Intérieur",

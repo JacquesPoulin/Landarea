@@ -15,7 +15,7 @@ const Filter = ({ setCityChoice, setIsFilter,isDark }) => {
       <div className="flex flex-col justify-center">
         <label
           htmlFor="city"
-          className={isDark?`font-medium flex flex-col justify-center`:`font-medium flex flex-col justify-center text-green-600`}
+          className={!isDark?`font-medium flex flex-col justify-center`:`font-medium flex flex-col justify-center text-green-600`}
         >
           Choisisez votre ville{" "}
           <select

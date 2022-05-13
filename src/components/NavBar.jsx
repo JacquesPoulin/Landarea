@@ -63,14 +63,14 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
                     LANDAREA
                   </h1>
                   <input
-                    src="../../assets/images/LOGO.png"
+                    src={!isDark?`../../assets/images/LOGO.png`:`../../assets/images/marijuana.svg`}
                     alt=""
                     className="w-20 h-20 m-auto cursor-pointer"
                     type="image"
                     onClick={changeDark}
                   />
                   <h3 className="font-regular text-slate-50">
-                    Le paradis des plantes
+                  {!isDark?`Le paradis des plantes`:`Les plantes du paradis`}
                   </h3>
                 </div>
                 <ul className="items-center justify-center text-black mt-24">
