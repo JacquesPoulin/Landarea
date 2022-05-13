@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import Modale from "./Modale";
 
-const Form = ({ newPlants, setNewPlants }) => {
-  const [modalOn, setModalOn] = useState(false);
-  const [choice, setChoice] = useState(false);
+const Form = ({newPlants, setNewPlants, isDark}) => {
+  const [modalOn, setModalOn]= useState(false);
+  const [choice, setChoice]= useState(false);
   const { register, handleSubmit } = useForm();
   const temp = [...newPlants];
-  console.log(temp);
   const push = (data) => {
     temp.unshift(data);
     setNewPlants(temp);
@@ -15,7 +14,7 @@ const Form = ({ newPlants, setNewPlants }) => {
 
   return (
     <div>
-      <h1 className="display flex justify-center font-main mt-10">
+      <h1 className={isDark?`display flex justify-center font-main mt-10`:`display flex justify-center font-main mt-10 text-green-600`}>
         AJOUTEZ VOTRE ANNONCE
       </h1>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
@@ -47,13 +46,13 @@ const Form = ({ newPlants, setNewPlants }) => {
                 htmlFor="url"
                 className="block text-sm font-primary text-gray-700 "
               >
-                Url de l'Image{" "}
+                Url de l'Image
               </label>
               <div className="mt-1">
                 <input
                   {...register("url")}
                   name="url"
-                  type="text"
+                  type="url" 
                   src=""
                   autoComplete="url"
                   required
@@ -190,18 +189,12 @@ const Form = ({ newPlants, setNewPlants }) => {
               </div>
             </div>
             <div>
-              <button
-                type="submit"
-                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-700 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 "
-                onClick={() => setModalOn(true)}
-              >
-                Valider
-              </button>
-              {choice && (
-                <div className="flex justify-center">
-                  <div className="flex justify-center w-1/3 bg-green-700 m-4 p-6 text-lg text-white">
-                    Merci d'avoir déposé votre anonce
-                  </div>
+              <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-700 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 " onClick={()=>setModalOn(true)}>Valider</button>
+              {choice &&
+                  <div className="flex justify-center mt-5">
+                  <div className="flex flex-col w-full text-center bg-green-700  p-6 text-lg text-white">Merci d'avoir déposé 
+                  <span className="justify-center">votre anonce</span></div>
+
                 </div>
               )}
               {modalOn && (
