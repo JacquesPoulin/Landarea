@@ -11,10 +11,14 @@ import "./App.css";
 
 function App() {
   const [newPlants, setNewPlants] = useState(plants);
+// je créé une fonction qui active le darkmode 
+const [isDark, setIsDark] = useState(false);
+// elle met plants2 dans newplants ;
+
   return (
-    <div className="w-full">
+    <div className={!isDark ?`w-full` : `w-full bg-stone-800`}>
       <HashRouter>
-        <NavBar />
+        <NavBar setNewPlants={setNewPlants} isDark={isDark} setIsDark={setIsDark}/>
         <Routes>
           <Route
             path="*"
