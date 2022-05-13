@@ -11,12 +11,12 @@ const PlantCards = ({
   price,
 }) => {
   return (
-    <div className="flex justify-around py-5">
-      <div className="relative w-11/12 shadow-xl font-main rounded-xl">
+    <div className="flex justify-around py-5 bp2:flex-row bp2:flex-wrap ">
+      <div className="relative w-11/12 shadow-xl font-main rounded-xl bp2:w-96">
         <img
           src={url}
           alt="Brugmansia suaveolens Tricolor"
-          className="object-cover w-full h-50 rounded-xl"
+          className="object-cover w-full h-50 rounded-xl bp2:w-96"
         />
         {/* Informations plante */}
         <div className="absolute bottom-0 flex flex-row w-full justify-around px-2 py-2 bg-slate-50/80">

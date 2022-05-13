@@ -7,7 +7,7 @@ import plants2 from "../../data/plants2";
 const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
   const [isOpened, setIsOpened] = useState(false);
 
-  // >> DARK MODE FUNCTIO
+  // >> DARK MODE FUNCTION
   // function darkmode
   // on envoi le jus
   // letsgo
