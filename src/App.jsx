@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./page/Homepage/Home";
 import Add from "./page/Add/Add";
@@ -12,14 +12,50 @@ import "./App.css";
 function App() {
   const [newPlants, setNewPlants] = useState(plants);
   return (
-    <div>
+    <div className="w-full">
       <HashRouter>
         <NavBar />
         <Routes>
-          <Route path="*" element={<Home newPlants={newPlants} setNewPlants={setNewPlants} {...heroes} />} />
-          <Route path="/" element={<Home newPlants={newPlants} setNewPlants={setNewPlants} {...heroes} />} />
-          <Route path="/home" element={<Home newPlants={newPlants} setNewPlants={setNewPlants} {...heroes} />} />
-          <Route path="/add" element={<Add newPlants={newPlants} setNewPlants={setNewPlants} {...heroes} />} />
+          <Route
+            path="*"
+            element={
+              <Home
+                newPlants={newPlants}
+                setNewPlants={setNewPlants}
+                {...heroes}
+              />
+            }
+          />
+          <Route
+            path="/"
+            element={
+              <Home
+                newPlants={newPlants}
+                setNewPlants={setNewPlants}
+                {...heroes}
+              />
+            }
+          />
+          <Route
+            path="/home"
+            element={
+              <Home
+                newPlants={newPlants}
+                setNewPlants={setNewPlants}
+                {...heroes}
+              />
+            }
+          />
+          <Route
+            path="/add"
+            element={
+              <Add
+                newPlants={newPlants}
+                setNewPlants={setNewPlants}
+                {...heroes}
+              />
+            }
+          />
           <Route path="/store" element={<Store {...heroes} />} />
         </Routes>
         <Footer />

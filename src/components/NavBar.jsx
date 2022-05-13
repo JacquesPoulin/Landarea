@@ -7,19 +7,28 @@ const NavBar = () => {
   const [isOpened, setIsOpened] = useState(false);
 
   return (
-    <header className="absolute w-full flex justify-end">
-      <nav className="w-full flex justify-end ">
-        <ul className="w-full flex justify-end">
+    <header className="w-screen flex">
+      <nav className="w-screen flex">
+        <ul className="w-screen flex justify-end relative">
           <button
             type="button"
             onClick={() => setIsOpened(!isOpened)}
-            className=" pt-3 pr-3 z-50"
+            className=" pr-3 z-50"
           >
-            <img
-              src="../../assets/images/burgerMenu.svg"
-              alt="menu de navigation"
-              className="w-6 h-6 text-lime-200 outline-none active:outline-none"
-            />
+            {" "}
+            {!isOpened ? (
+              <img
+                src="../../assets/images/burgerMenu.svg"
+                alt="menu de navigation"
+                className="w-6 h-6 text-lime-200 outline-none active:outline-none fixed top-3	right-5"
+              />
+            ) : (
+              <img
+                src="../../assets/images/cross1.svg"
+                alt="menu de navigation"
+                className="w-10 h-10 text-lime-200 outline-none active:outline-none fixed top-3	right-3"
+              />
+            )}
           </button>
 
           {/* Transition : to FADE IN and FADE OUT */}
@@ -34,7 +43,7 @@ const NavBar = () => {
           >
             {/* MOBILE MENU */}
             {isOpened && (
-              <div className="absolute right-0 w-full h-screen justify-center m-auto bg-greeny z-10">
+              <div className="fixed right-0 w-full h-screen justify-center m-auto bg-greeny z-10">
                 <div className=" w-full h-auto flex flex-col mt-20 justify-center text-center mb-6">
                   <h1 className="text-xl text-slate-50 font-primary">
                     LANDAREA
@@ -48,14 +57,14 @@ const NavBar = () => {
                     Le paradis des plantes
                   </h3>
                 </div>
-                <ul className="items-center justify-center text-black">
+                <ul className="items-center justify-center text-black mt-24">
                   {navLinks.map((link) => (
                     <NavLink
                       key={link.id}
                       to={link.path}
                       onClick={() => setIsOpened(false)}
                     >
-                      <li className="flex justify-between ml-3 font-second hover:underline text-xl border-b-2 py-4 text-slate-50">
+                      <li className="flex justify-between ml-3 font-second lg:hover:underline text-xl border-b-2 py-4 text-slate-50">
                         {link.title}
                         <img
                           src="../../assets/images/nav-arrow-right-svgrepo-com.svg"
