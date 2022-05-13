@@ -7,14 +7,15 @@ const Form = ({newPlants, setNewPlants, isDark}) => {
   const [choice, setChoice]= useState(false);
   const { register, handleSubmit } = useForm();
   const temp = [...newPlants];
+  // console.log(temp);
   const push = (data) => {
-    temp.unshift(data);
-    setNewPlants(temp);
-  };
+temp.unshift(data);
+setNewPlants(temp);
+}
 
   return (
     <div>
-      <h1 className={!isDark?`display flex justify-center font-main mt-10`:`display flex justify-center font-main mt-10 text-green-600`}>
+      <h1 className={isDark?`display flex justify-center font-main mt-10`:`display flex justify-center font-main mt-10 text-green-600`}>
         AJOUTEZ VOTRE ANNONCE
       </h1>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
@@ -194,12 +195,9 @@ const Form = ({newPlants, setNewPlants, isDark}) => {
                   <div className="flex justify-center mt-5">
                   <div className="flex flex-col w-full text-center bg-green-700  p-6 text-lg text-white">Merci d'avoir déposé 
                   <span className="justify-center">votre anonce</span></div>
-
                 </div>
-              )}
-              {modalOn && (
-                <Modale setModalOn={setModalOn} setChoice={setChoice} />
-              )}
+              }
+              {modalOn && <Modale setModalOn={setModalOn} setChoice={setChoice} />}
             </div>
           </form>
         </div>
