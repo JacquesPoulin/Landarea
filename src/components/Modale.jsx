@@ -16,7 +16,7 @@ const Modale = ({ setModalOn, setChoice }) => {
           <div className="w-full flex flex-col justify-center text-lg text-white mr-2 mb-10">
             Votre annonce sera bien prise en compte.
             <span className="mt-4">Confirmez ?</span>
-            <div className="flex w-full justify-between mt-4 ">
+            <div className="flex w-full justify-between mt-3 ">
               <button
                 onClick={handleOkClick}
                 className=" rounded px-4 py-2 mr-4 text-white bg-green-700"
