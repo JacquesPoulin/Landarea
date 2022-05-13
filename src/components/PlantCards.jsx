@@ -21,7 +21,7 @@ const PlantCards = ({
         {/* Informations plante */}
         <div className="absolute bottom-0 flex flex-row w-full justify-around px-2 py-2 bg-slate-50/80">
           <div className="flex flex-col">
-            <h1 className="text-xl z-3">{name}</h1>
+            <h1 className="text-xl z-3 bp2:text-2xl ">{name}</h1>
             <h2 className="text-xs z-3">{plantCare}</h2>
             <h2 className="text-xs z-3">
               A retirer à {place}, {city}
