@@ -8,9 +8,12 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
   const [isOpened, setIsOpened] = useState(false);
 
   // function darkmode
+  // on envoi le jus
+  // letsgo
+
   const changeDark = () => {
     setNewPlants(plants2);
-    setIsDark(true);
+    setIsDark(!isDark);
   };
 
   return (
@@ -65,7 +68,7 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
                   <input
                     src={!isDark?`../../assets/images/LOGO.png`:`../../assets/images/marijuana.svg`}
                     alt=""
-                    className="w-20 h-20 m-auto cursor-pointer"
+                    className="w-20 h-20 m-auto"
                     type="image"
                     onClick={changeDark}
                   />
