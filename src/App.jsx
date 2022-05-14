@@ -11,9 +11,9 @@ import "./App.css";
 
 function App() {
   const [newPlants, setNewPlants] = useState(plants);
-  // je créé une fonction qui active le darkmode
+  // Je crée une fonction qui active le darkmode
   const [isDark, setIsDark] = useState(false);
-  // elle met plants2 dans newplants ;
+  // Elle met plants2 dans newplants ;
 
   return (
     <div className={!isDark ? `w-full` : `w-full bg-stone-800`}>
@@ -68,9 +68,11 @@ function App() {
         </Routes>
         <Footer />
       </HashRouter>
+
       {console.log(
         "Nous nous somme amussez à insérer un black market dans notre site .... amusez vous bien ;) "
       )}
+
     </div>
   );
 }
