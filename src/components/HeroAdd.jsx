@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from "prop-types";
 import heroes from "../../data/heroes";
 
 // on crée le header de la page Add

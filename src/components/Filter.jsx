@@ -66,7 +66,7 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
 
 Filter.propTypes = {
   setCityChoice: propTypes.func.isRequired,
-  setIsFilter: propTypes.isRequired,
+  setIsFilter: propTypes.func.isRequired,
   isDark: propTypes.bool.isRequired,
   newPlants: propTypes.object.isRequired,
 };
