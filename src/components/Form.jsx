@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import propTypes from "prop-types";
 import { useForm } from "react-hook-form";
 import Modale from "./Modale";
 
@@ -230,4 +231,11 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
     </div>
   );
 };
+
+Form.propTypes = {
+  setNewPlants: propTypes.func.isRequired,
+  isDark: propTypes.bool.isRequired,
+  newPlants: propTypes.node.isRequired,
+};
+
 export default Form;

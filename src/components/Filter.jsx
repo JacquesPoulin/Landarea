@@ -46,7 +46,7 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
       <div className="flex justify-center">
         <button type="button" onClick={() => setIsFilter(true)}>
           <img
-            src="../../public/static/logo/arrow-down-filter.svg"
+            src="/../../public/static/img/arrow-down-filter.svg"
             alt="Flèche du bas"
             className="w-10 h-10 mt-4 mr-10"
           />
@@ -54,7 +54,7 @@ const Filter = ({ setCityChoice, setIsFilter, isDark, newPlants }) => {
         <br />
         <button type="button" onClick={() => setIsFilter(false)}>
           <img
-            src="../../public/static/logo/arrow-up-filter.svg"
+            src="/../../public/static/img/arrow-up-filter.svg"
             alt="Flèche du haut"
             className="w-10 h-10 mt-4"
           />
@@ -68,6 +68,6 @@ Filter.propTypes = {
   setCityChoice: propTypes.func.isRequired,
   setIsFilter: propTypes.func.isRequired,
   isDark: propTypes.bool.isRequired,
-  newPlants: propTypes.object.isRequired,
+  newPlants: propTypes.node.isRequired,
 };
 export default Filter;

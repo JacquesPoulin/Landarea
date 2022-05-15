@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import propTypes from "prop-types";
 import PlantCards from "../../components/PlantCards.jsx";
 import Filter from "../../components/Filter.jsx";
 import HeroHome from "../../components/HeroHome.jsx";
@@ -25,5 +26,14 @@ const Home = ({ id, name, title, txt, img, newPlants }) => {
       </div>
     </div>
   );
+};
+
+Home.propTypes = {
+  id: propTypes.number.isRequired,
+  name: propTypes.string.isRequired,
+  title: propTypes.string.isRequired,
+  txt: propTypes.string.isRequired,
+  img: propTypes.string.isRequired,
+  newPlants: propTypes.node.isRequired,
 };
 export default Home;

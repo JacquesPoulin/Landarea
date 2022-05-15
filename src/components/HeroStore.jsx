@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from "prop-types";
 import heroes from "../../data/heroes";
 import Button from "./Button";
 
@@ -29,6 +30,10 @@ const HeroStore = ({ isDark }) => {
       <Button />
     </div>
   );
+};
+
+HeroStore.propTypes = {
+  isDark: propTypes.bool.isRequired,
 };
 
 export default HeroStore;

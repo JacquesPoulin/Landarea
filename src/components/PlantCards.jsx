@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import React from "react";
+import propTypes from "prop-types";
 
 const PlantCards = ({
   url,
@@ -46,6 +46,16 @@ const PlantCards = ({
       </div>
     </div>
   );
+};
+
+PlantCards.propTypes = {
+  url: propTypes.string.isRequired,
+  plantCare: propTypes.string.isRequired,
+  name: propTypes.string.isRequired,
+  place: propTypes.string.isRequired,
+  city: propTypes.string.isRequired,
+  price: propTypes.number.isRequired,
+  withdrawalLimit: propTypes.string.isRequired,
 };
 
 export default PlantCards;

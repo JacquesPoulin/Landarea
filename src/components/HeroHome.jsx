@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from "prop-types";
 import heroes from "../../data/heroes";
 
 // on crée le header de la page Home
@@ -27,6 +28,10 @@ const HeroHome = ({ isDark }) => {
       </p>
     </div>
   );
+};
+
+HeroHome.propTypes = {
+  isDark: propTypes.bool.isRequired,
 };
 
 export default HeroHome;
