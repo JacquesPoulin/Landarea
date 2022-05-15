@@ -11,8 +11,8 @@ const heroes = [
   {
     id: 2,
     name: "ADD",
-    title: "Donnez vos plantes",
-    txt: "Offez une nouvelle vie à vos plantes, vous ferez deux nouveaux heureux !",
+    title: "Vendez vos plantes",
+    txt: `Offez une nouvelle vie à vos plantes, vous ferez deux nouveaux heureux !`,
     img: "../public/static/img/heroes2.jpg",
     link: "",
   },
