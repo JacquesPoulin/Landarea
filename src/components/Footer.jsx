@@ -19,39 +19,38 @@ const Footer = () => {
       <div className="flex flex-col justify-center items-center bg-greeny/80 pt-7">
         <h2 className="font-regular mb-4 text-white"> Ils nous soutiennent</h2>
         <div className="flex flex-wrap justify-around gap-12 m-5">
-          {/* <img src="../assets/images/nasa.svg" alt="nasa" width="50" /> */}
-          <img src="../../public/static/img/eelv.png" alt="eelv" width="170" />
-          <img src="../../public/static/img/wwf.png" alt="wwf" width="80" />
+          <img src="../../public/assets/img/eelv.png" alt="eelv" width="170" />
+          <img src="../../public/assets/img/wwf.png" alt="wwf" width="80" />
           <img
-            src="../../public/static/img/lesverts.png"
+            src="../../public/assets/img/lesverts.png"
             alt="lesverts"
             width="90"
           />
-          <img src="../../public/static/img/love.svg" alt="love" width="50" />
+          <img src="../../public/assets/img/love.svg" alt="love" width="50" />
 
           <img
-            src="../../public/static/img/marijuana.svg"
+            src="../../public/assets/img/marijuana.svg"
             alt="marijuana"
             width="50"
           />
 
-          <img src="../../public/static/img/wcs.png" alt="wcs" width="160" />
+          <img src="../../public/assets/img/wcs.png" alt="wcs" width="160" />
         </div>
         <div className="flex flex-col flex-wrap items-center bg-greeny py-8 font-regular w-full">
           <h2 className="text-white pb-3">Retrouvez-nous sur les réseaux </h2>
           <div className="flex flex-row justify-between bp1:justify-around w-1/2">
             <img
-              src="../../public/static/logo/instagram.svg"
+              src="../../public/assets/logo/instagram.svg"
               alt="instagram"
               width={30}
             />
             <img
-              src="../../public/static/logo/twitter.svg"
+              src="../../public/assets/logo/twitter.svg"
               alt="twitter"
               width={30}
             />
             <img
-              src="../../public/static/logo/facebook.svg"
+              src="../../public/assets/logo/facebook.svg"
               alt="facebook"
               width={30}
             />
