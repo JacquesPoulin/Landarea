@@ -22,7 +22,7 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
       <header className="flex flex-row justify-around text-2xl text-shadow-gr bp1:hidden ">
         <ul className=" w-full flex flex-row justify-around">
           <img
-            src="../../public/assets/logo/LOGO.png"
+            src="../../public/assets/img/LOGO.png"
             alt="Logo de l'entreprise"
             className="w-20 h-20"
           />
@@ -85,8 +85,8 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
                     <input
                       src={
                         !isDark
-                          ? `../../public/assets/logo/LOGO.png`
-                          : `../../public/assets/logo/marijuana.svg`
+                          ? `../../public/assets/img/LOGO.png`
+                          : `../../public/assets/img/marijuana.svg`
                       }
                       alt=""
                       className="w-20 h-20 m-auto cursor-none"

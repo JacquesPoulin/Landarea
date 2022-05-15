@@ -40,17 +40,17 @@ const Footer = () => {
           <h2 className="text-white pb-3">Retrouvez-nous sur les réseaux </h2>
           <div className="flex flex-row justify-between bp1:justify-around w-1/2">
             <img
-              src="../../public/assets/logo/instagram.svg"
+              src="../../public/assets/img/instagram.svg"
               alt="instagram"
               width={30}
             />
             <img
-              src="../../public/assets/logo/twitter.svg"
+              src="../../public/assets/img/twitter.svg"
               alt="twitter"
               width={30}
             />
             <img
-              src="../../public/assets/logo/facebook.svg"
+              src="../../public/assets/img/facebook.svg"
               alt="facebook"
               width={30}
             />
