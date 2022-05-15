@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import propTypes from "prop-types";
 import { useForm } from "react-hook-form";
 import Modale from "./Modale";
 
@@ -36,38 +37,38 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                 className="block text-sm text-gray-700 font-primary "
               >
                 Nom de la Fleur
+                <div className="mt-1">
+                  <input
+                    {...register("name")}
+                    name="name"
+                    type="text"
+                    autoComplete="name"
+                    required
+                    placeholder="fleur"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-x-green-700 focus:ring focus:ring-green-700"
+                  />
+                </div>
               </label>
-              <div className="mt-1">
-                <input
-                  {...register("name")}
-                  name="name"
-                  type="text"
-                  autoComplete="name"
-                  required
-                  placeholder="fleur"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-x-green-700 focus:ring focus:ring-green-700"
-                />
-              </div>
             </div>
             <div>
               <label
                 htmlFor="url"
                 className="block text-sm text-gray-700 font-primary "
               >
-                Url de l'Image
+                Url de l&apos;image
+                <div className="mt-1">
+                  <input
+                    {...register("url")}
+                    name="url"
+                    type="url"
+                    src=""
+                    autoComplete="url"
+                    required
+                    placeholder="https://"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
+                  />
+                </div>
               </label>
-              <div className="mt-1">
-                <input
-                  {...register("url")}
-                  name="url"
-                  type="url"
-                  src=""
-                  autoComplete="url"
-                  required
-                  placeholder="https://"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
-                />
-              </div>
             </div>
             <div>
               <label
@@ -140,7 +141,7 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                   type="number"
                   autoComplete="price"
                   required
-                  placeholder="1"
+                  placeholder="€"
                   className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm outline-none focus: focus:border-green-700 focus:ring focus:ring-green-700"
                 />
               </div>
@@ -170,20 +171,20 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
                 className="block text-sm text-gray-700 font-primary "
               >
                 Entretien
+                <div className="mt-1">
+                  <select
+                    {...register("plantCare")}
+                    id="plantCare"
+                    required
+                    className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
+                  >
+                    <option value="">Séléctionnez</option>
+                    <option value="Intérieur">plante d&apos;intérieur</option>
+                    <option value="Extérieur">plante d&apos;éxterieur</option>
+                    <option value="Bassin">plante de bassin</option>
+                  </select>
+                </div>
               </label>
-              <div className="mt-1">
-                <select
-                  {...register("plantCare")}
-                  id="plantCare"
-                  required
-                  className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus: outline-none focus:border-green-700 focus:ring focus:ring-green-700"
-                >
-                  <option value="">Séléctionnez</option>
-                  <option value="Intérieur">plante d'intérieur</option>
-                  <option value="Extérieur">plante d'éxterieur</option>
-                  <option value="Bassin">plante de bassin</option>
-                </select>
-              </div>
             </div>
             <div>
               <label
@@ -230,4 +231,11 @@ const Form = ({ newPlants, setNewPlants, isDark }) => {
     </div>
   );
 };
+
+Form.propTypes = {
+  setNewPlants: propTypes.func.isRequired,
+  isDark: propTypes.bool.isRequired,
+  newPlants: propTypes.node.isRequired,
+};
+
 export default Form;

@@ -1,11 +1,12 @@
 import React from "react";
+import propTypes from "prop-types";
 import heroes from "../../data/heroes";
 
 // on crée le header de la page Home
 const HeroHome = ({ isDark }) => {
   return (
     <div
-      className={`flex flex-col justify-center m-0 bg-[url('../assets/images/heroes51.png')] h-96 bg-cover `}
+      className={`flex flex-col justify-center m-0 bg-[url('../../public/static/img/heroes51.png')] h-96 bg-cover `}
     >
       <h1
         className={
@@ -27,6 +28,10 @@ const HeroHome = ({ isDark }) => {
       </p>
     </div>
   );
+};
+
+HeroHome.propTypes = {
+  isDark: propTypes.bool.isRequired,
 };
 
 export default HeroHome;

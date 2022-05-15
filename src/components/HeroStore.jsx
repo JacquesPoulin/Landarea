@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from "prop-types";
 import heroes from "../../data/heroes";
 import Button from "./Button";
 
@@ -6,7 +7,7 @@ import Button from "./Button";
 const HeroStore = ({ isDark }) => {
   return (
     <div
-      className={`flex flex-col justify-around m-0 bg-[url('../assets/images/heroes3.jpg')] h-[80vh] bg-cover`}
+      className={`flex flex-col justify-around m-0 bg-[url('../../public/static/img/heroes3.jpg')] h-[80vh] bg-cover`}
     >
       <h1
         className={
@@ -29,6 +30,10 @@ const HeroStore = ({ isDark }) => {
       <Button />
     </div>
   );
+};
+
+HeroStore.propTypes = {
+  isDark: propTypes.bool.isRequired,
 };
 
 export default HeroStore;

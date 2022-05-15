@@ -3,10 +3,10 @@ import propTypes from "prop-types";
 import heroes from "../../data/heroes";
 
 // on crée le header de la page Add
-const HeroAdd = () => {
+const HeroAdd = ({ isDark }) => {
   return (
     <div
-      className={`flex flex-col m-0 bg-[url('../assets/images/heroes2.jpg')] h-96 bg-cover`}
+      className={`flex flex-col m-0 bg-[url('../../public/static/img/heroes2.jpg')] h-96 bg-cover`}
     >
       <h1
         className={
