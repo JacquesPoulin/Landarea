@@ -18,7 +18,7 @@ const popups = [
     title: "Pour_une_seconde beauté",
     url: "../public/static/img/heroes6.jpg",
     description:
-      "Parfois nos fleurs ne trouvent pas l'amour, alors on leur redonne une seconde beauté. Découvrez notre sélection de fleurs ! ",
+      "Parfois nos fleurs ne trouvent pas l'amour, alors on a décidé de leur redonner une seconde beauté. Découvrez notre sélection de fleurs ! ",
   },
 ];
 
