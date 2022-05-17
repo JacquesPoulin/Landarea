@@ -7,7 +7,7 @@ import Button from "./Button";
 const HeroStore = ({ isDark }) => {
   return (
     <div
-      className={`flex flex-col justify-around m-0 bg-[url('../../public/assets/img/heroes3.jpg')] h-[80vh] bg-cover`}
+      className={`flex flex-col justify-around m-0 bg-[url('/assets/img/heroes3.jpg')] h-[80vh] bg-cover`}
     >
       <h1
         className={
