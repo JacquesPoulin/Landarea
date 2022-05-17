@@ -22,7 +22,7 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
       <header className="flex flex-row justify-around text-2xl text-shadow-gr bp1:hidden ">
         <ul className=" w-full flex flex-row justify-around">
           <img
-            src="../../public/assets/img/LOGO.png"
+            src="/assets/img/LOGO.png"
             alt="Logo de l'entreprise"
             className="w-20 h-20"
           />
@@ -45,13 +45,13 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
               {" "}
               {!isOpened ? (
                 <img
-                  src="../../public/assets/img/burgerMenu.svg"
+                  src="/assets/img/burgerMenu.svg"
                   alt="menu de navigation"
                   className="w-6 h-6 text-lime-200 outline-none active:outline-none fixed top-3	right-5"
                 />
               ) : (
                 <img
-                  src="../../public/assets/img/cross1.svg"
+                  src="/assets/img/cross1.svg"
                   alt="menu de navigation"
                   className="w-10 h-10 text-lime-200 outline-none active:outline-none fixed top-3	right-3"
                 />
@@ -85,8 +85,8 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
                     <input
                       src={
                         !isDark
-                          ? `../../public/assets/img/LOGO.png`
-                          : `../../public/assets/img/marijuana.svg`
+                          ? `/assets/img/LOGO.png`
+                          : `/assets/img/marijuana.svg`
                       }
                       alt=""
                       className="w-20 h-20 m-auto cursor-none"
@@ -109,7 +109,7 @@ const NavBar = ({ setNewPlants, isDark, setIsDark }) => {
                         <li className="flex justify-between ml-3 font-second lg:hover:underline text-xl border-b-2 py-4 text-slate-50">
                           {link.title}
                           <img
-                            src="../../public/assets/img/nav-arrow-right-svgrepo-com.svg"
+                            src="/assets/img/nav-arrow-right-svgrepo-com.svg"
                             alt="fleche droite de navigation"
                           />
                         </li>

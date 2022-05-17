@@ -6,7 +6,7 @@ import heroes from "../../data/heroes";
 const HeroAdd = ({ isDark }) => {
   return (
     <div
-      className={`flex flex-col m-0 bg-[url('../../public/assets/img/heroes2.jpg')] h-96 bg-cover`}
+      className={`flex flex-col m-0 bg-[url('/assets/img/heroes2.jpg')] h-96 bg-cover`}
     >
       <h1
         className={
