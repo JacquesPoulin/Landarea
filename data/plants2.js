@@ -180,36 +180,6 @@ const plants2 = [
   },
 
   {
-    id: 13,
-    name: "Central Nervous System Depressants (Benzos)",
-    url: "https://opentext.wsu.edu/biopsychological-effects-alcohol-drugs/wp-content/uploads/sites/155/2021/01/10.1.1-The-GABA-Receptor-1.jpg",
-    adress: "1 rue de Javascript",
-    city: "Hendaye",
-    place: "No no José no se bueno",
-
-    price: 9,
-
-    color: "Kaki",
-    plantCare: "Kaka",
-    withdrawalLimit: "23/06/2022",
-  },
-
-  {
-    id: 14,
-    name: "GHB",
-    url: "https://cdn.radiofrance.fr/s3/cruiser-production/2022/04/d0322de4-5765-40c4-b038-9a09a33ca32c/1136_maxstockworld430528.jpg",
-    adress: "26 rue de la royauté",
-    city: "Urt",
-    place: "Plante des Violeurs",
-
-    price: 11,
-
-    color: "Blanc",
-    plantCare: "Liquide",
-    withdrawalLimit: "20/05/2022",
-  },
-
-  {
     id: 15,
     name: "Zantedeschia 'Summer Sun",
     url: "https://www.zamnesia.fr/2045-4301-thickbox/hawaiian-supa-gro.jpg",
@@ -222,21 +192,6 @@ const plants2 = [
     color: "Jaune",
     plantCare: "Intérieur",
     withdrawalLimit: "29/05/2022",
-  },
-
-  {
-    id: 16,
-    name: "Ketamine (Spravato)",
-    url: "https://media.dumpert.nl/dmp/media/image/c/3/8/c385c045-b0ea-21c6-ca2d-40a73c4a0e43/image.jpg",
-    adress: "6 rue du petit bayonne",
-    city: "Tarnos",
-    place: "Viva la Keta",
-
-    price: 12,
-
-    color: "Blanc",
-    plantCare: "Intérieur",
-    withdrawalLimit: "04/O6/2022",
   },
 
   {
@@ -270,81 +225,6 @@ const plants2 = [
   },
 
   {
-    id: 19,
-    name: "LSD (Acid)",
-    url: "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000xAny/9/1/9/132919_Pink_Elephants_on_Parade_Blotter_LSD_Dumbo.jpg",
-    adress: "26 rue de la royauté",
-    city: "Urt",
-    place: "Alice in Wonderland",
-
-    price: 8,
-
-    color: "Multicolor",
-    plantCare: "Cosmos",
-    withdrawalLimit: "16/06/2022",
-  },
-
-  {
-    id: 20,
-    name: "MDMA (Ecstasy/Molly)",
-    url: "https://cdn.cnn.com/cnnnext/dam/assets/120809060248-ecstasy-molly-mdma-drugs.jpg",
-    adress: "6 rue de la code school",
-    city: "Anglet",
-    place: "L'idée planante",
-
-    price: 9,
-
-    color: "Multicolor",
-    plantCare: "Extérieur",
-    withdrawalLimit: "30/06/2022",
-  },
-
-  {
-    id: 21,
-    name: "Methamphetamine (Crystal/Meth)",
-    url: "https://www.verywellhealth.com/thmb/yZHqrpL3vFR8f3ITNEsgcToQ_Gg=/3797x2848/smart/filters:no_upscale()/methamphetamine-also-known-as-crystal-meth-513476400-2ef1c361fcee44b585a68facc488f0be.jpg",
-    adress: "6 rue du petit bayonne",
-    city: "Tarnos",
-    place: "Aux Planantes",
-
-    price: 11,
-
-    color: "Blanc",
-    plantCare: "Intérieur",
-    withdrawalLimit: "04/O6/2022",
-  },
-
-  {
-    id: 22,
-    name: "Dextromethorphan (DXM)",
-    url: "https://www.sbhservices.org/sites/default/files/drugfreeazkids/uploads/cmDXM.png",
-    adress: "45 rue du wild",
-    city: "Biarritz",
-    place: "Toxicomarché",
-
-    price: 14,
-
-    color: "Rouge",
-    plantCare: "Intérieur",
-    withdrawalLimit: "25/06/2022",
-  },
-
-  {
-    id: 23,
-    name: "PCP (Angel Dust)",
-    url: "https://www.legacyhealing.com/wp-content/uploads/2019/09/angel-dust-side-effects.jpg",
-    adress: "98 rue Playa",
-    city: "Boucau",
-    place: "No no José no se bueno",
-
-    price: 15,
-
-    color: "Gris",
-    plantCare: "Intérieur",
-    withdrawalLimit: "03/06/2022",
-  },
-
-  {
     id: 24,
     name: "Psilocybin (Magicshrooms)",
     url: "https://i.guim.co.uk/img/media/f73b9d7a268199e4001725b309ac33a74a17afc9/0_73_4683_2810/master/4683.jpg?width=1200&quality=85&auto=format&fit=max&s=d578569b005a7f1ec42852ffa3961a8f",
@@ -357,21 +237,6 @@ const plants2 = [
     color: "Gris",
     plantCare: "Extérieur",
     withdrawalLimit: "25/06/2022",
-  },
-
-  {
-    id: 25,
-    name: "Synthetic Cathinones (Bath Salts/Flakka)",
-    url: "https://cdn.cnn.com/cnnnext/dam/assets/150526140618-flakka-drug.jpg",
-    adress: "17 rue de Tailwind",
-    city: "Ondres",
-    place: "No no José no se bueno",
-
-    price: 10,
-
-    color: "Blanc",
-    plantCare: "Intérieur",
-    withdrawalLimit: "21/06/2022",
   },
 ];
 
