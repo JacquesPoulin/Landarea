@@ -1,7 +1,6 @@
-## Hi, I'm jacques ! 👋
-
-
 ### 🚀 About Me
+
+Hi, I'm jacques ! 👋
 
 A passionate web developer student from France
 
