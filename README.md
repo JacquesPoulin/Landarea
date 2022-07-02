@@ -1,27 +1,68 @@
-## Concept
+## Hi, I'm jacques ! 👋
 
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying as simple as possible to use.
 
-## Setup & Use
+### 🚀 About Me
 
-### Project Initialization
+A passionate web developer student from France
 
-- Clone this repo
-- Run command `npm install`
+know more : https://github.com/JacquesPoulin
 
-### Available Commands
 
-- `dev` : Starts the app in one terminal
-- `lint` : Runs validation tools, and refuses unclean code (will be executed on every _commit_)
-- `fix` : Fixes linter errors (run it if `lint` growls on your code !)
+# "LANDAREA" (react app)
 
-## FAQ
+### > Hackathon React App (think for mobile devices) 
 
-### Tools
+This is our first 24h Hackathon project, done during our Full-stack Bootcamp at the Wild Code School.
+The challenge was to create a functional mobile app in 24h.
 
-- _Husky_ : Allows to execute specific commands that trigger on _git_ events
-- _Vite_ : Alternative to _Create-React-App_, packaging less tools for a more fluid experience
-- _ESLint_ : "Quality of code" tool, ensures chosen rules will be enforced
-- _Prettier_ : "Quality of code" tool as well, focuses on the styleguide
-- _ Airbnb Standard_ : One of the most known "standards", even though it's not officially linked to ES/JS
+With this app everyone can give or grab some plants,
+instead of waste / trash them, and give them a second life.
+
+With our team Antso, Damien, Jacques, Johnny et Rémi,
+we are glad to share this challenge with all of you !
+
+
+## Roadmap of this project
+
+- Improve our React & Tailwind skills
+- Learn how to code in a challenging way
+- Deploy a React app online (Vercel)
+
+
+## Features
+
+- Mobile first React app
+- Hooks
+- Filters
+- Rendering list
+
+
+## Lessons Learned
+
+*What did we learn while building this project ?*
+
+
+-  **React Basis :**
+    - events
+    - conditional
+    - debugging
+
+-  **React Intermediate :**
+    - Fragments
+    - mapping
+    - portals & "Refs"
+
+-  **Others :**
+    - ui / ux
+    - working with a deadline
+    - packages
+
+
+## Let's collaborate !
+
+I hope you will appreciate the work and i looking forward to collaborate on future projects with you or your company ...
+
+
+## Authors
+
+- [@jacquespoulin](https://github.com/JacquesPoulin)
